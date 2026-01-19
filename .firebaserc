@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "apex-recruiter-p1"
-  }
+  },
+  "targets": {
+    "apex-recruiter-p1": {
+      "hosting": {
+        "live": [
+          "apex-recruiter-p1"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

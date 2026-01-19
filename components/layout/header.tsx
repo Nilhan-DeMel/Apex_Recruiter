@@ -211,6 +211,11 @@ export function Header({
                             </DropdownMenuItem>
                         )}
                         <DropdownMenuSeparator />
+                        <DropdownMenuItem disabled className="text-[10px] opacity-50 flex flex-col items-start gap-0.5 px-2 py-1.5 font-mono">
+                            <span>Build: {process.env.NEXT_PUBLIC_GIT_SHA?.substring(0, 7) || "dev"}</span>
+                            <span>{new Date(process.env.NEXT_PUBLIC_BUILD_TIME || Date.now()).toLocaleString()}</span>
+                        </DropdownMenuItem>
+                        <DropdownMenuSeparator />
                         <DropdownMenuItem onClick={resetAll} className="text-destructive">
                             <Trash2 className="mr-2 h-4 w-4" />
                             Reset All

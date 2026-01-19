@@ -1,0 +1,91 @@
+GIT STATUS:
+On branch chore/deploy-sync-2026-01-19
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .firebase/hosting.b3V0.cache
+	modified:   docs/skills_evidence_log.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.firebase/logs/
+	.vscode/
+	find_working_project.js
+	proof_bundle/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+GIT LOG:
+d8e6d5b docs: capture live build sync proof [skill:playwright-visual-repro] [skill:forensic-proof]
+51d6ffc chore: align persistence features and sync infra state [skill:playwright-visual-repro] [skill:firebase-target-verification] [skill:git-hygiene-basic]
+e537ac2 feat: Phase 1 implementation [skill:ms-edge-browser] [skill:nextjs-scaffold] [skill:firebase-deploy]
+68c216c Configure Firebase project and hosting
+56342d9 Initial scaffold
+
+
+FIREBASERC:
+{
+  "projects": {
+    "default": "apex-recruiter-p1"
+  }
+}
+
+
+FIREBASE.JSON:
+{
+  "hosting": {
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/api/**",
+        "function": "api"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(js|css)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          }
+        ]
+      },
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "X-Frame-Options",
+            "value": "DENY"
+          },
+          {
+            "key": "X-XSS-Protection",
+            "value": "1; mode=block"
+          }
+        ]
+      }
+    ]
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}
+

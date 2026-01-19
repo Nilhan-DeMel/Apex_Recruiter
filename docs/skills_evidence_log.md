@@ -24,4 +24,12 @@
 - **Invocation**: Inspected `.firebaserc` and `firebase projects:list`.
 - **Evidence**: Confirmed `apex-recruiter-p1` alignment.
 
+- **Evidence**: Confirmed `apex-recruiter-p1` alignment.
+
+## SKILL: Production Build & Deploy
+
+- **ID**: `firebase-deploy`
+- **Invocation**: Ran `npm run build` and `firebase deploy --only hosting`.
+- **Evidence**: Build logs in `docs/proof_bundle/deploy_sync/logs/build.txt` (to be created) and deploy output.
+
 *Log updated dynamically.*
