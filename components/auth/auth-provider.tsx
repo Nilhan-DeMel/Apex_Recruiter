@@ -66,7 +66,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
                     <div className="bg-destructive/15 text-destructive text-xs py-2 px-4 flex items-center justify-between border-b border-destructive/20 animate-in fade-in slide-in-from-top duration-500">
                         <div className="flex items-center gap-2">
                             <span className="font-bold">⚠️ AUTH CONFIG REQUIRED:</span>
-                            <span>Enable "Anonymous" sign-in in Firebase Console for project <b>{process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID}</b>.</span>
+                            <span>Enable &quot;Anonymous&quot; sign-in in Firebase Console for project <b>{process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID}</b>.</span>
                         </div>
                         <button onClick={() => window.location.reload()} className="underline hover:no-underline font-medium">Retry</button>
                     </div>
