@@ -17,68 +17,42 @@ export async function sendChatMessage({
     onToken,
     onComplete,
     onError,
-}: SendChatMessageParams): Promise<void> {
+    vectorStoreId,
+    threadId,
+    onThreadId,
+}: SendChatMessageParams & {
+    vectorStoreId?: string,
+    threadId?: string | null,
+    onThreadId?: (id: string) => void
+}): Promise<void> {
     try {
-        // Call OpenAI directly from client (key is already client-side)
-        const response = await fetch("https://api.openai.com/v1/chat/completions", {
+        const response = await fetch("/api/chat", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
                 "Authorization": `Bearer ${apiKey}`,
             },
             body: JSON.stringify({
-                model: "gpt-4o",
                 messages,
-                stream: true,
-                temperature: 0.7,
-                max_tokens: 4096,
+                vectorStoreId,
+                threadId
             }),
         });
 
         if (!response.ok) {
             const error = await response.json();
-            throw new Error(error.error?.message || "OpenAI API error");
+            throw new Error(error.error || "Proxy API error");
         }
 
-        const reader = response.body?.getReader();
-        if (!reader) {
-            throw new Error("No response body");
+        const data = await response.json();
+
+        if (data.threadId && onThreadId) {
+            onThreadId(data.threadId);
         }
 
-        const decoder = new TextDecoder();
-        let done = false;
-        let buffer = "";
-
-        while (!done) {
-            const { value, done: readerDone } = await reader.read();
-            done = readerDone;
-
-            if (value) {
-                buffer += decoder.decode(value, { stream: true });
-
-                // Parse SSE format
-                const lines = buffer.split("\n");
-                buffer = lines.pop() || ""; // Keep incomplete line in buffer
-
-                for (const line of lines) {
-                    if (line.startsWith("data: ")) {
-                        const data = line.slice(6);
-                        if (data === "[DONE]") {
-                            done = true;
-                            break;
-                        }
-                        try {
-                            const parsed = JSON.parse(data);
-                            const token = parsed.choices?.[0]?.delta?.content;
-                            if (token) {
-                                onToken(token);
-                            }
-                        } catch {
-                            // Skip invalid JSON
-                        }
-                    }
-                }
-            }
+        if (data.content) {
+            // Since proxy is currently non-streaming, we send the whole content at once
+            onToken(data.content);
         }
 
         onComplete();

@@ -1,7 +1,6 @@
 "use client";
 
-import { useVacancyStore, Message } from "@/lib/store/vacancy-store";
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { useVacancyStore } from "@/lib/store/vacancy-store";
 import { ChatMessage } from "./chat-message";
 import { ChatComposer } from "./chat-composer";
 import { QuickChips } from "./quick-chips";
@@ -14,8 +13,14 @@ interface ChatPanelProps {
 }
 
 export function ChatPanel({ hasApiKey }: ChatPanelProps) {
-    const { messages, addMessage, updateMessage, setMessageStreaming, apiKey, extractedText } = useVacancyStore();
+    const {
+        messages, addMessage, updateMessage, setMessageStreaming,
+        extractedText, setActiveTab, addFile,
+        threadId, setThreadId, files, apiKey
+    } = useVacancyStore();
     const scrollRef = useRef<HTMLDivElement>(null);
+    const composerRef = useRef<HTMLTextAreaElement>(null);
+    const fileInputRef = useRef<HTMLInputElement>(null);
     const [isLoading, setIsLoading] = useState(false);
 
     // Auto-scroll to bottom on new messages
@@ -28,44 +33,62 @@ export function ChatPanel({ hasApiKey }: ChatPanelProps) {
     const handleSendMessage = async (content: string) => {
         if (!apiKey || !content.trim()) return;
 
-        // Add user message
+        // Add user message to local store
         addMessage({ role: "user", content });
 
-        // Add placeholder assistant message
-        const assistantMessageId = Date.now().toString();
-        addMessage({ role: "assistant", content: "", isStreaming: true });
-
-        setIsLoading(true);
+        // Persist to Firestore
+        try {
+            const vacancyId = useVacancyStore.getState().vacancyId;
+            if (vacancyId) {
+                const { addMessage: firestoreAddMessage } = await import("@/lib/firebase/firestore");
+                await firestoreAddMessage(vacancyId, {
+                    role: "user",
+                    content
+                });
+            }
+        } catch (err) {
+            console.error("[ChatPanel] Failed to persist user message:", err);
+        }
 
         try {
+            // Prepare assistant placeholder and message
+            addMessage({ role: "assistant", content: "", isStreaming: true });
+            setIsLoading(true);
+
             // Prepare context
             const context = extractedText ? `\n\nVacancy Context:\n${extractedText}` : "";
             const systemPrompt = getSystemPrompt();
+            const vectorStoreId = files[0]?.vectorStoreId;
 
             // Send to API with streaming
             await sendChatMessage({
                 apiKey,
+                vectorStoreId,
+                threadId,
+                onThreadId: (id) => setThreadId(id),
                 messages: [
                     { role: "system", content: systemPrompt + context },
-                    ...messages.map((m) => ({ role: m.role, content: m.content })),
+                    ...useVacancyStore.getState().messages.slice(0, -1).map((m) => ({ role: m.role, content: m.content })),
                     { role: "user", content },
                 ],
                 onToken: (token) => {
-                    // Find the last assistant message and update it
-                    const lastMessage = useVacancyStore.getState().messages.slice(-1)[0];
+                    const latestMessages = useVacancyStore.getState().messages;
+                    const lastMessage = latestMessages[latestMessages.length - 1];
                     if (lastMessage && lastMessage.role === "assistant") {
                         updateMessage(lastMessage.id, lastMessage.content + token);
                     }
                 },
                 onComplete: () => {
-                    const lastMessage = useVacancyStore.getState().messages.slice(-1)[0];
+                    const latestMessages = useVacancyStore.getState().messages;
+                    const lastMessage = latestMessages[latestMessages.length - 1];
                     if (lastMessage) {
                         setMessageStreaming(lastMessage.id, false);
                     }
                     setIsLoading(false);
                 },
                 onError: (error) => {
-                    const lastMessage = useVacancyStore.getState().messages.slice(-1)[0];
+                    const latestMessages = useVacancyStore.getState().messages;
+                    const lastMessage = latestMessages[latestMessages.length - 1];
                     if (lastMessage) {
                         updateMessage(lastMessage.id, `Error: ${error.message}`);
                         setMessageStreaming(lastMessage.id, false);
@@ -83,19 +106,79 @@ export function ChatPanel({ hasApiKey }: ChatPanelProps) {
     };
 
     const handleRegenerate = () => {
-        // Find last user message and resend
         const lastUserMessage = [...messages].reverse().find((m) => m.role === "user");
         if (lastUserMessage) {
             handleSendMessage(lastUserMessage.content);
         }
     };
 
+    const handleUploadClick = () => fileInputRef.current?.click();
+
+    const handleFileSelect = async (e: React.ChangeEvent<HTMLInputElement>) => {
+        const file = e.target.files?.[0];
+        if (!file || !apiKey) return;
+
+        addFile({
+            name: file.name,
+            type: file.type,
+            size: file.size,
+            url: URL.createObjectURL(file),
+            status: "uploading"
+        });
+        setActiveTab("files");
+
+        try {
+            const formData = new FormData();
+            formData.append("file", file);
+            if (files[0]?.vectorStoreId) {
+                formData.append("vectorStoreId", files[0].vectorStoreId);
+            }
+
+            const response = await fetch("/api/upload", {
+                method: "POST",
+                headers: {
+                    "Authorization": `Bearer ${apiKey}`,
+                },
+                body: formData,
+            });
+
+            if (!response.ok) throw new Error("Upload failed");
+
+            const data = await response.json();
+            useVacancyStore.setState((state) => ({
+                files: state.files.map((f) =>
+                    f.name === file.name ? { ...f, ...data, status: "ready" } : f
+                ),
+                extractedText: data.extractedText || state.extractedText
+            }));
+        } catch (error) {
+            useVacancyStore.setState((state) => ({
+                files: state.files.map((f) =>
+                    f.name === file.name ? { ...f, status: "error" } : f
+                )
+            }));
+        }
+    };
+
+    const handlePasteClick = () => {
+        setActiveTab("text");
+        composerRef.current?.focus();
+    };
+
+    const handleDescribeClick = () => {
+        composerRef.current?.focus();
+    };
+
     return (
         <div className="flex h-full flex-col">
-            {/* Messages */}
-            <ScrollArea className="flex-1 p-4" ref={scrollRef}>
+            <div className="flex flex-col flex-1 overflow-y-auto p-4 min-h-0" ref={scrollRef}>
                 {messages.length === 0 ? (
-                    <EmptyState hasApiKey={hasApiKey} />
+                    <EmptyState
+                        hasApiKey={hasApiKey}
+                        onUpload={handleUploadClick}
+                        onPaste={handlePasteClick}
+                        onDescribe={handleDescribeClick}
+                    />
                 ) : (
                     <div className="space-y-4">
                         {messages.map((message) => (
@@ -107,18 +190,27 @@ export function ChatPanel({ hasApiKey }: ChatPanelProps) {
                         ))}
                     </div>
                 )}
-            </ScrollArea>
+            </div>
 
-            {/* Quick Chips */}
             {messages.length > 0 && !isLoading && (
                 <QuickChips onSelect={handleQuickChip} />
             )}
 
-            {/* Composer */}
-            <ChatComposer
-                onSend={handleSendMessage}
-                disabled={!hasApiKey || isLoading}
-                isLoading={isLoading}
+            <div className="shrink-0 z-10 w-full relative">
+                <ChatComposer
+                    onSend={handleSendMessage}
+                    disabled={!hasApiKey || isLoading}
+                    isLoading={isLoading}
+                    inputRef={composerRef}
+                />
+            </div>
+
+            <input
+                type="file"
+                ref={fileInputRef}
+                className="hidden"
+                onChange={handleFileSelect}
+                accept=".pdf,.docx,.txt,.jpg,.png"
             />
         </div>
     );

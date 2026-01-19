@@ -12,7 +12,7 @@ import { FileText, Link, StickyNote, Users, Upload } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 export function ContextPanel() {
-    const { files, links, notes, extractedText, personaSets } = useVacancyStore();
+    const { files, links, notes, extractedText, personaSets, activeTab, setActiveTab } = useVacancyStore();
     const latestPersonaSet = personaSets[personaSets.length - 1];
 
     return (
@@ -26,7 +26,7 @@ export function ContextPanel() {
             </div>
 
             {/* Tabs */}
-            <Tabs defaultValue="files" className="flex flex-1 flex-col overflow-hidden">
+            <Tabs value={activeTab} onValueChange={(val) => setActiveTab(val as any)} className="flex flex-1 flex-col overflow-hidden">
                 <TabsList className="mx-4 mt-3 grid w-auto grid-cols-4 gap-1">
                     <TabsTrigger value="files" className="gap-1.5 text-xs">
                         <Upload className="h-3.5 w-3.5" />

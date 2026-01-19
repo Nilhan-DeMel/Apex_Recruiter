@@ -15,11 +15,13 @@ interface ChatComposerProps {
     onSend: (message: string) => void;
     disabled?: boolean;
     isLoading?: boolean;
+    inputRef?: React.RefObject<HTMLTextAreaElement | null>;
 }
 
-export function ChatComposer({ onSend, disabled, isLoading }: ChatComposerProps) {
+export function ChatComposer({ onSend, disabled, isLoading, inputRef }: ChatComposerProps) {
     const [message, setMessage] = useState("");
-    const textareaRef = useRef<HTMLTextAreaElement>(null);
+    const internalRef = useRef<HTMLTextAreaElement>(null);
+    const textareaRef = inputRef || internalRef;
 
     const handleSend = () => {
         if (message.trim() && !disabled) {

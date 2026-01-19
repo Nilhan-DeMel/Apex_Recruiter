@@ -6,7 +6,6 @@ import { useVacancyStore } from "@/lib/store/vacancy-store";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Skeleton } from "@/components/ui/skeleton";
 import {
     FileText,
     Image,
@@ -29,67 +28,94 @@ const acceptedFileTypes = {
 const maxFileSize = 10 * 1024 * 1024; // 10MB
 
 export function FileUploader() {
-    const { files, addFile, updateFile, removeFile, appendExtractedText } = useVacancyStore();
+    const { files, addFile, removeFile, apiKey } = useVacancyStore();
     const [isProcessing, setIsProcessing] = useState(false);
 
     const onDrop = useCallback(
         async (acceptedFiles: File[]) => {
-            for (const file of acceptedFiles) {
-                // Add file to store
-                const fileId = Math.random().toString(36).substring(2, 15);
-                const fileUrl = URL.createObjectURL(file);
+            const currentApiKey = useVacancyStore.getState().apiKey;
+            if (!currentApiKey) return;
 
+            for (const file of acceptedFiles) {
                 addFile({
                     name: file.name,
                     type: file.type,
                     size: file.size,
-                    url: fileUrl,
-                    status: "processing",
+                    url: URL.createObjectURL(file),
+                    status: "uploading"
                 });
 
-                // Simulate text extraction (in production, this would call the Cloud Function)
                 setIsProcessing(true);
 
                 try {
-                    // For text files, read directly
-                    if (file.type === "text/plain") {
-                        const text = await file.text();
-                        appendExtractedText(`--- ${file.name} ---\n${text}`);
-                        // Update file status after extraction
-                        const currentFiles = useVacancyStore.getState().files;
-                        const targetFile = currentFiles.find((f) => f.name === file.name);
-                        if (targetFile) {
-                            updateFile(targetFile.id, {
-                                status: "ready",
-                                extractedText: text,
+                    const formData = new FormData();
+                    formData.append("file", file);
+                    const currentFiles = useVacancyStore.getState().files;
+                    if (currentFiles[0]?.vectorStoreId) {
+                        formData.append("vectorStoreId", currentFiles[0].vectorStoreId);
+                    }
+
+                    const response = await fetch("/api/upload", {
+                        method: "POST",
+                        headers: {
+                            "Authorization": `Bearer ${currentApiKey}`,
+                        },
+                        body: formData,
+                    });
+
+                    if (!response.ok) throw new Error("Upload failed");
+
+                    const data = await response.json();
+
+                    // Update the file in store
+                    useVacancyStore.setState((state) => ({
+                        files: state.files.map((f) =>
+                            f.name === file.name ? { ...f, ...data, status: "ready" } : f
+                        ),
+                        extractedText: data.extractedText || state.extractedText
+                    }));
+
+                    // Persist to Firebase Storage & Firestore
+                    try {
+                        const vId = useVacancyStore.getState().vacancyId;
+                        if (vId) {
+                            const { uploadVacancyFile } = await import("@/lib/firebase/storage");
+                            const { addFile: addFileToDb } = await import("@/lib/firebase/firestore");
+
+                            // Use OpenAI file ID as internal key, or fallback
+                            const fileId = data.fileId || Math.random().toString(36).substring(2, 15);
+
+                            // Upload the raw file object to Storage
+                            const { storagePath } = await uploadVacancyFile(vId, fileId, file);
+
+                            // Metadata to Firestore
+                            await addFileToDb(vId, {
+                                originalName: file.name,
+                                storagePath: storagePath,
+                                contentType: file.type,
+                                sizeBytes: file.size,
+                                extractionStatus: "ready",
+                                extractedText: data.extractedText || "",
+                                openaiFileId: data.fileId || null,
+                                vectorStoreId: data.vectorStoreId || null
                             });
+                            console.log("[FileUploader] Persisted file:", fileId);
                         }
-                    } else {
-                        // For other files, mark as ready (extraction would happen on server)
-                        setTimeout(() => {
-                            const currentFiles = useVacancyStore.getState().files;
-                            const targetFile = currentFiles.find((f) => f.name === file.name);
-                            if (targetFile) {
-                                updateFile(targetFile.id, {
-                                    status: "ready",
-                                    extractedText: `[Extracted text from ${file.name} would appear here after server-side processing]`,
-                                });
-                                appendExtractedText(`--- ${file.name} ---\n[File uploaded - text extraction pending]`);
-                            }
-                        }, 1500);
+                    } catch (persistErr) {
+                        console.error("[FileUploader] Persistence failed:", persistErr);
                     }
                 } catch (error) {
-                    const currentFiles = useVacancyStore.getState().files;
-                    const targetFile = currentFiles.find((f) => f.name === file.name);
-                    if (targetFile) {
-                        updateFile(targetFile.id, { status: "error" });
-                    }
+                    useVacancyStore.setState((state) => ({
+                        files: state.files.map((f) =>
+                            f.name === file.name ? { ...f, status: "error" } : f
+                        )
+                    }));
                 } finally {
                     setIsProcessing(false);
                 }
             }
         },
-        [addFile, updateFile, appendExtractedText]
+        [addFile]
     );
 
     const { getRootProps, getInputProps, isDragActive } = useDropzone({
@@ -126,7 +152,6 @@ export function FileUploader() {
 
     return (
         <div className="flex h-full flex-col gap-4">
-            {/* Drop Zone */}
             <div
                 {...getRootProps()}
                 className={cn(
@@ -148,7 +173,6 @@ export function FileUploader() {
                 </p>
             </div>
 
-            {/* File List */}
             {files.length > 0 && (
                 <ScrollArea className="flex-1">
                     <div className="space-y-2">
@@ -180,7 +204,6 @@ export function FileUploader() {
                 </ScrollArea>
             )}
 
-            {/* Empty State */}
             {files.length === 0 && (
                 <div className="flex flex-1 items-center justify-center text-center">
                     <div className="text-muted-foreground">

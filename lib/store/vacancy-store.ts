@@ -15,6 +15,8 @@ export interface UploadedFile {
     size: number;
     url: string;
     extractedText?: string;
+    openaiFileId?: string;
+    vectorStoreId?: string;
     status: "uploading" | "processing" | "ready" | "error";
 }
 
@@ -60,11 +62,22 @@ export interface PersonaSet {
 }
 
 export type VacancyStatus = "draft" | "analyzing" | "persona_ready" | "approved";
+export type ContextTab = "files" | "links" | "text" | "personas";
 
 interface VacancyState {
+    // UI State
+    activeTab: ContextTab;
+    setActiveTab: (tab: ContextTab) => void;
+    threadId: string | null;
+    setThreadId: (id: string | null) => void;
+
     // API Key
     apiKey: string | null;
     setApiKey: (key: string | null) => void;
+
+    // Vacancy identity
+    vacancyId: string | null;
+    setVacancyId: (id: string | null) => void;
 
     // Vacancy metadata
     vacancyName: string;
@@ -110,9 +123,19 @@ interface VacancyState {
 const generateId = () => Math.random().toString(36).substring(2, 15);
 
 export const useVacancyStore = create<VacancyState>((set) => ({
+    // UI State
+    activeTab: "files",
+    setActiveTab: (tab) => set({ activeTab: tab }),
+    threadId: null,
+    setThreadId: (id) => set({ threadId: id }),
+
     // API Key
     apiKey: null,
     setApiKey: (key) => set({ apiKey: key }),
+
+    // Vacancy identity
+    vacancyId: null,
+    setVacancyId: (id) => set({ vacancyId: id }),
 
     // Vacancy metadata
     vacancyName: "New Vacancy",
@@ -240,6 +263,7 @@ export const useVacancyStore = create<VacancyState>((set) => ({
     // Reset
     resetAll: () =>
         set({
+            vacancyId: null,
             vacancyName: "New Vacancy",
             vacancyStatus: "draft",
             messages: [],

@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Temporary Diagnosis Files
+playwright-report/
+test-results/
+browser_logs.txt
+config_full.txt
+config_output.txt
+*.ui_harvest.json
+uploaded_image_*

@@ -13,19 +13,26 @@ import { useVacancyStore } from "@/lib/store/vacancy-store";
 import {
     Key,
     KeyRound,
-    Menu,
     Moon,
     MoreVertical,
-    RefreshCw,
+    Pencil,
+    Save,
     Sun,
     Trash2,
+    Loader2,
 } from "lucide-react";
 import { useState } from "react";
+import { VacancyLibraryModal } from "@/components/vacancy/vacancy-library-modal";
 
 interface HeaderProps {
     hasApiKey: boolean;
     onClearKey: () => void;
     onSetKey: () => void;
+    onOpenVacancy?: (id: string) => void;
+    onSaveVacancy?: () => Promise<void>;
+    currentVacancyId?: string | null;
+    isDirty?: boolean;
+    isSaving?: boolean;
 }
 
 const statusConfig = {
@@ -35,7 +42,16 @@ const statusConfig = {
     approved: { label: "Approved", variant: "default" as const },
 };
 
-export function Header({ hasApiKey, onClearKey, onSetKey }: HeaderProps) {
+export function Header({
+    hasApiKey,
+    onClearKey,
+    onSetKey,
+    onOpenVacancy,
+    onSaveVacancy,
+    currentVacancyId,
+    isDirty = false,
+    isSaving = false,
+}: HeaderProps) {
     const { vacancyName, setVacancyName, vacancyStatus, resetAll } = useVacancyStore();
     const [isDark, setIsDark] = useState(true);
     const [isEditingName, setIsEditingName] = useState(false);
@@ -65,6 +81,12 @@ export function Header({ hasApiKey, onClearKey, onSetKey }: HeaderProps) {
         }
     };
 
+    const handleSave = async () => {
+        if (onSaveVacancy) {
+            await onSaveVacancy();
+        }
+    };
+
     const status = statusConfig[vacancyStatus];
 
     return (
@@ -82,6 +104,14 @@ export function Header({ hasApiKey, onClearKey, onSetKey }: HeaderProps) {
 
                 <div className="hidden h-6 w-px bg-border sm:block" />
 
+                {/* Vacancy Library Button */}
+                {onOpenVacancy && (
+                    <VacancyLibraryModal
+                        onOpenVacancy={onOpenVacancy}
+                        currentVacancyId={currentVacancyId || null}
+                    />
+                )}
+
                 {/* Vacancy Name */}
                 <div className="flex items-center gap-2">
                     {isEditingName ? (
@@ -98,15 +128,37 @@ export function Header({ hasApiKey, onClearKey, onSetKey }: HeaderProps) {
                     ) : (
                         <button
                             onClick={handleNameClick}
-                            className="text-sm font-medium text-foreground hover:text-primary transition-colors cursor-pointer"
+                            className="text-sm font-medium text-foreground hover:text-primary transition-colors cursor-pointer flex items-center gap-1"
                         >
                             {vacancyName}
+                            <Pencil className="h-3 w-3 opacity-50" />
                         </button>
                     )}
                     <Badge variant={status.variant} className="text-xs">
                         {status.label}
                     </Badge>
+                    {isDirty && (
+                        <span className="h-2 w-2 rounded-full bg-yellow-500" title="Unsaved changes" />
+                    )}
                 </div>
+
+                {/* Save Button */}
+                {onSaveVacancy && (
+                    <Button
+                        variant="ghost"
+                        size="icon"
+                        onClick={handleSave}
+                        disabled={isSaving}
+                        title={isDirty ? "Save changes" : "All changes saved"}
+                        className="h-8 w-8"
+                    >
+                        {isSaving ? (
+                            <Loader2 className="h-4 w-4 animate-spin" />
+                        ) : (
+                            <Save className={`h-4 w-4 ${isDirty ? "text-yellow-500" : ""}`} />
+                        )}
+                    </Button>
+                )}
             </div>
 
             {/* Right: Actions */}
@@ -169,3 +221,4 @@ export function Header({ hasApiKey, onClearKey, onSetKey }: HeaderProps) {
         </header>
     );
 }
+

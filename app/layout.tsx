@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { AuthProvider } from "@/components/auth/auth-provider";
 
 export const metadata: Metadata = {
   title: "Apex Recruiter | Vacancy Intelligence Chat",
@@ -25,8 +26,11 @@ export default function RootLayout({
         <meta name="theme-color" content="#7c3aed" />
       </head>
       <body className="min-h-screen antialiased">
-        {children}
+        <AuthProvider>
+          {children}
+        </AuthProvider>
       </body>
     </html>
   );
 }
+

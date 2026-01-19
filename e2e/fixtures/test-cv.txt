@@ -1,0 +1,5 @@
+This is a test CV for John Doe.
+Skills: TypeScript, Playwright, React.
+Experience: 5 years at Tech Corp.
+Location: Colombo, Sri Lanka.
+Summary: An experienced software engineer specializing in frontend architecture.

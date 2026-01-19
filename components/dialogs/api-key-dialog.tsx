@@ -76,6 +76,7 @@ export function ApiKeyDialog({ open, onOpenChange, onSubmit }: ApiKeyDialogProps
                             type="button"
                             onClick={() => setShowKey(!showKey)}
                             className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+                            aria-label={showKey ? "Hide API Key" : "Show API Key"}
                         >
                             {showKey ? (
                                 <EyeOff className="h-4 w-4" />

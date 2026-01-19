@@ -1,0 +1,43 @@
+{
+    "manifestVersion": "1.1",
+    "generated": "2026-01-19T18:45:00+05:30",
+    "project": "Apex Recruiter - Live Persistence Verification",
+    "target_env": "LIVE (apex-recruiter-p1)",
+    "status": "BLOCKED_BY_AUTH_CONFIG",
+    "claims": {
+        "B1_legacy_project_identified": {
+            "claim": "Live hosting site is apex-recruiter-p1",
+            "status": "VERIFIED",
+            "evidence": "docs/proof_bundle/persistence_live/project_id_report.md"
+        },
+        "B2_auth_enabled": {
+            "claim": "Anonymous Auth enabled on apex-recruiter-p1",
+            "status": "FAILED",
+            "blocker": "auth/configuration-not-found",
+            "evidence": "docs/proof_bundle/persistence_live/traces/auth_blocker_trace.zip"
+        },
+        "C_persistence_implemented": {
+            "claim": "Persistence logic wired in UI and Store",
+            "status": "CODE_COMPLETE",
+            "evidence": [
+                "lib/store/vacancy-store.ts (vacancyId added)",
+                "components/context/file-uploader.tsx (wired)",
+                "components/chat/chat-panel.tsx (wired)"
+            ]
+        },
+        "G_rules_deployed": {
+            "claim": "Security rules deployed to live project",
+            "status": "VERIFIED",
+            "evidence": "CLI output: +  firestore: released rules firestore.rules to cloud.firestore"
+        },
+        "T1_create_save_persist": {
+            "claim": "Vacancy persists across refresh",
+            "status": "BLOCKED",
+            "reason": "Requires Auth"
+        }
+    },
+    "artifacts": [
+        "docs/LIVE_PROJECT_SETUP_REQUIRED.md",
+        "e2e/live-persistence.spec.ts"
+    ]
+}

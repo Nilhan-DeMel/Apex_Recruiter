@@ -6,11 +6,14 @@ import { FileText, Key, MessageSquare, Sparkles, Upload } from "lucide-react";
 
 interface EmptyStateProps {
     hasApiKey: boolean;
+    onUpload?: () => void;
+    onPaste?: () => void;
+    onDescribe?: () => void;
 }
 
-export function EmptyState({ hasApiKey }: EmptyStateProps) {
+export function EmptyState({ hasApiKey, onUpload, onPaste, onDescribe }: EmptyStateProps) {
     return (
-        <div className="flex h-full items-center justify-center p-8">
+        <div className="flex flex-1 w-full items-center justify-center p-8">
             <div className="mx-auto max-w-md text-center">
                 <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10">
                     <Sparkles className="h-8 w-8 text-primary" />
@@ -28,7 +31,14 @@ export function EmptyState({ hasApiKey }: EmptyStateProps) {
 
                 {hasApiKey ? (
                     <div className="grid gap-3 text-left">
-                        <Card className="flex items-center gap-3 p-4 hover:bg-accent/50 transition-colors cursor-pointer">
+                        <Card
+                            className="flex items-center gap-3 p-4 hover:bg-accent/50 transition-colors cursor-pointer"
+                            onClick={onUpload}
+                            role="button"
+                            tabIndex={0}
+                            data-testid="cta-upload"
+                            onKeyDown={(e) => e.key === "Enter" && onUpload?.()}
+                        >
                             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10">
                                 <Upload className="h-5 w-5 text-primary" />
                             </div>
@@ -40,7 +50,14 @@ export function EmptyState({ hasApiKey }: EmptyStateProps) {
                             </div>
                         </Card>
 
-                        <Card className="flex items-center gap-3 p-4 hover:bg-accent/50 transition-colors cursor-pointer">
+                        <Card
+                            className="flex items-center gap-3 p-4 hover:bg-accent/50 transition-colors cursor-pointer"
+                            onClick={onPaste}
+                            role="button"
+                            tabIndex={0}
+                            data-testid="cta-paste"
+                            onKeyDown={(e) => e.key === "Enter" && onPaste?.()}
+                        >
                             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10">
                                 <FileText className="h-5 w-5 text-primary" />
                             </div>
@@ -52,7 +69,14 @@ export function EmptyState({ hasApiKey }: EmptyStateProps) {
                             </div>
                         </Card>
 
-                        <Card className="flex items-center gap-3 p-4 hover:bg-accent/50 transition-colors cursor-pointer">
+                        <Card
+                            className="flex items-center gap-3 p-4 hover:bg-accent/50 transition-colors cursor-pointer"
+                            onClick={onDescribe}
+                            role="button"
+                            tabIndex={0}
+                            data-testid="cta-describe"
+                            onKeyDown={(e) => e.key === "Enter" && onDescribe?.()}
+                        >
                             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10">
                                 <MessageSquare className="h-5 w-5 text-primary" />
                             </div>

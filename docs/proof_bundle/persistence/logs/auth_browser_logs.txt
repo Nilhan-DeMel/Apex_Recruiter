@@ -1,0 +1,10 @@
+[CONSOLE] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[CONSOLE] [HMR] connected
+[CONSOLE] [Auth] Signed in anonymously: CYMyKaTCWafxsRpb7Ns2kNse1Ab2
+[CONSOLE] [Fast Refresh] rebuilding
+[CONSOLE] [Fast Refresh] done in 125ms
+[CONSOLE] [Fast Refresh] rebuilding
+[CONSOLE] [Fast Refresh] done in 106ms
+[CONSOLE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o
+[CONSOLE] [Fast Refresh] rebuilding
+[CONSOLE] [Fast Refresh] done in 134ms

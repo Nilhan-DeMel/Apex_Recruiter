@@ -1,0 +1,2768 @@
+﻿[
+    {
+        "Id":  "a11y-performance-auditor",
+        "Name":  "a11y-performance-auditor",
+        "Description":  "Automates Lighthouse (mock) and axe-core runs for quality reporting.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\a11y-performance-auditor"
+    },
+    {
+        "Id":  "accessibility",
+        "Name":  "Accessibility",
+        "Description":  "Web accessibility guidelines and WCAG compliance",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\accessibility"
+    },
+    {
+        "Id":  "active-directory-attacks",
+        "Name":  "Active Directory Attacks",
+        "Description":  "This skill should be used when the user asks to \"attack Active Directory\", \"exploit AD\", \"Kerberoasting\", \"DCSync\", \"pass-the-hash\", \"BloodHound enumeration\", \"Golden Ticket\", \"Silver Ticket\", \"AS-REP roasting\", \"NTLM relay\", or needs guidance on Windows domain penetration testing.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\active-directory-attacks"
+    },
+    {
+        "Id":  "address-github-comments",
+        "Name":  "address-github-comments",
+        "Description":  "Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\address-github-comments"
+    },
+    {
+        "Id":  "ai-active-learning-loop",
+        "Name":  "ai-active-learning-loop",
+        "Description":  "Specialized AI/ML skill for ai-active-learning-loop tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-active-learning-loop"
+    },
+    {
+        "Id":  "ai-agent-testing",
+        "Name":  "ai-agent-testing",
+        "Description":  "Specialized AI/ML skill for ai-agent-testing tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-agent-testing"
+    },
+    {
+        "Id":  "ai-code-llm-optimization",
+        "Name":  "ai-code-llm-optimization",
+        "Description":  "Specialized AI/ML skill for ai-code-llm-optimization tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-code-llm-optimization"
+    },
+    {
+        "Id":  "ai-diffusion-model-control",
+        "Name":  "ai-diffusion-model-control",
+        "Description":  "Specialized AI/ML skill for ai-diffusion-model-control tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-diffusion-model-control"
+    },
+    {
+        "Id":  "ai-distributed-training-setup",
+        "Name":  "ai-distributed-training-setup",
+        "Description":  "Specialized AI/ML skill for ai-distributed-training-setup tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-distributed-training-setup"
+    },
+    {
+        "Id":  "ai-federated-learning-ref",
+        "Name":  "ai-federated-learning-ref",
+        "Description":  "Specialized AI/ML skill for ai-federated-learning-ref tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-federated-learning-ref"
+    },
+    {
+        "Id":  "ai-huggingface-ops",
+        "Name":  "ai-huggingface-ops",
+        "Description":  "Specialized AI/ML skill for ai-huggingface-ops tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-huggingface-ops"
+    },
+    {
+        "Id":  "ai-hyperparameter-tuning",
+        "Name":  "ai-hyperparameter-tuning",
+        "Description":  "Specialized AI/ML skill for ai-hyperparameter-tuning tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-hyperparameter-tuning"
+    },
+    {
+        "Id":  "ai-inference-optimization",
+        "Name":  "ai-inference-optimization",
+        "Description":  "Specialized AI/ML skill for ai-inference-optimization tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-inference-optimization"
+    },
+    {
+        "Id":  "ai-interpretability-analysis",
+        "Name":  "ai-interpretability-analysis",
+        "Description":  "Specialized AI/ML skill for ai-interpretability-analysis tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-interpretability-analysis"
+    },
+    {
+        "Id":  "ai-knowledge-distillation",
+        "Name":  "ai-knowledge-distillation",
+        "Description":  "Specialized AI/ML skill for ai-knowledge-distillation tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-knowledge-distillation"
+    },
+    {
+        "Id":  "ai-llm-benchmarking",
+        "Name":  "ai-llm-benchmarking",
+        "Description":  "Specialized AI/ML skill for ai-llm-benchmarking tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-llm-benchmarking"
+    },
+    {
+        "Id":  "ai-llm-ops-dashboard",
+        "Name":  "ai-llm-ops-dashboard",
+        "Description":  "Specialized AI/ML skill for ai-llm-ops-dashboard tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-llm-ops-dashboard"
+    },
+    {
+        "Id":  "ai-llm-security-audit",
+        "Name":  "ai-llm-security-audit",
+        "Description":  "Specialized AI/ML skill for ai-llm-security-audit tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-llm-security-audit"
+    },
+    {
+        "Id":  "ai-model-finetuning",
+        "Name":  "ai-model-finetuning",
+        "Description":  "Specialized AI/ML skill for ai-model-finetuning tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-model-finetuning"
+    },
+    {
+        "Id":  "ai-model-quantization",
+        "Name":  "ai-model-quantization",
+        "Description":  "Specialized AI/ML skill for ai-model-quantization tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-model-quantization"
+    },
+    {
+        "Id":  "ai-multilingual-adapter-prep",
+        "Name":  "ai-multilingual-adapter-prep",
+        "Description":  "Specialized AI/ML skill for ai-multilingual-adapter-prep tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-multilingual-adapter-prep"
+    },
+    {
+        "Id":  "ai-multimodal-automation",
+        "Name":  "ai-multimodal-automation",
+        "Description":  "Specialized AI/ML skill for ai-multimodal-automation tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-multimodal-automation"
+    },
+    {
+        "Id":  "ai-neuro-symbolic-design",
+        "Name":  "ai-neuro-symbolic-design",
+        "Description":  "Specialized AI/ML skill for ai-neuro-symbolic-design tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-neuro-symbolic-design"
+    },
+    {
+        "Id":  "ai-on-device-deployment",
+        "Name":  "ai-on-device-deployment",
+        "Description":  "Specialized AI/ML skill for ai-on-device-deployment tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-on-device-deployment"
+    },
+    {
+        "Id":  "ai-prompt-engineering-advanced",
+        "Name":  "ai-prompt-engineering-advanced",
+        "Description":  "Specialized AI/ML skill for ai-prompt-engineering-advanced tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-prompt-engineering-advanced"
+    },
+    {
+        "Id":  "ai-rag-optimization",
+        "Name":  "ai-rag-optimization",
+        "Description":  "Specialized AI/ML skill for ai-rag-optimization tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-rag-optimization"
+    },
+    {
+        "Id":  "ai-reasoning-trace-analysis",
+        "Name":  "ai-reasoning-trace-analysis",
+        "Description":  "Specialized AI/ML skill for ai-reasoning-trace-analysis tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-reasoning-trace-analysis"
+    },
+    {
+        "Id":  "ai-rlhf-signal-prep",
+        "Name":  "ai-rlhf-signal-prep",
+        "Description":  "Specialized AI/ML skill for ai-rlhf-signal-prep tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-rlhf-signal-prep"
+    },
+    {
+        "Id":  "ai-speech-to-text-pipeline",
+        "Name":  "ai-speech-to-text-pipeline",
+        "Description":  "Specialized AI/ML skill for ai-speech-to-text-pipeline tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-speech-to-text-pipeline"
+    },
+    {
+        "Id":  "ai-structured-output-enforcement",
+        "Name":  "ai-structured-output-enforcement",
+        "Description":  "Specialized AI/ML skill for ai-structured-output-enforcement tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-structured-output-enforcement"
+    },
+    {
+        "Id":  "ai-synthetic-data-gen",
+        "Name":  "ai-synthetic-data-gen",
+        "Description":  "Specialized AI/ML skill for ai-synthetic-data-gen tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-synthetic-data-gen"
+    },
+    {
+        "Id":  "ai-toxicity-filtering",
+        "Name":  "ai-toxicity-filtering",
+        "Description":  "Specialized AI/ML skill for ai-toxicity-filtering tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-toxicity-filtering"
+    },
+    {
+        "Id":  "ai-transformer-arch-review",
+        "Name":  "ai-transformer-arch-review",
+        "Description":  "Specialized AI/ML skill for ai-transformer-arch-review tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-transformer-arch-review"
+    },
+    {
+        "Id":  "ai-vector-db-management",
+        "Name":  "ai-vector-db-management",
+        "Description":  "Specialized AI/ML skill for ai-vector-db-management tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ai-vector-db-management"
+    },
+    {
+        "Id":  "algorithmic-art",
+        "Name":  "algorithmic-art",
+        "Description":  "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\algorithmic-art"
+    },
+    {
+        "Id":  "antigravity-extension-dev",
+        "Name":  "antigravity-extension-dev",
+        "Description":  "Guide for developing Antigravity IDE extensions. Use when creating, porting, debugging, or publishing TypeScript/JavaScript extensions specifically for Antigravity.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\antigravity-extension-dev"
+    },
+    {
+        "Id":  "api-design",
+        "Name":  "API Design",
+        "Description":  "RESTful API design best practices and documentation",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\api-design"
+    },
+    {
+        "Id":  "api-fuzzing-bug-bounty",
+        "Name":  "API Fuzzing for Bug Bounty",
+        "Description":  "This skill should be used when the user asks to \"test API security\", \"fuzz APIs\", \"find IDOR vulnerabilities\", \"test REST API\", \"test GraphQL\", \"API penetration testing\", \"bug bounty API testing\", or needs guidance on API security assessment techniques.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\api-fuzzing-bug-bounty"
+    },
+    {
+        "Id":  "app-store-optimization",
+        "Name":  "app-store-optimization",
+        "Description":  "Complete App Store Optimization (ASO) toolkit for researching, optimizing, and tracking mobile app performance on Apple App Store and Google Play Store",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\app-store-optimization"
+    },
+    {
+        "Id":  "artifacts-builder",
+        "Name":  "artifacts-builder",
+        "Description":  "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\artifacts-builder"
+    },
+    {
+        "Id":  "ask-questions-if-underspecified",
+        "Name":  "ask-questions-if-underspecified",
+        "Description":  "Clarify requirements before implementing. Do not use automatically, only when invoked explicitly.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ask-questions-if-underspecified"
+    },
+    {
+        "Id":  "ats-gemini-scoring",
+        "Name":  "ats-gemini-scoring",
+        "Description":  "ATS scoring using Google Gemini Pro LLM.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ats-gemini-scoring"
+    },
+    {
+        "Id":  "audit-trail-logger",
+        "Name":  "audit-trail-logger",
+        "Description":  "Log all data changes for compliance and debugging with immutable audit trails.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\audit-trail-logger"
+    },
+    {
+        "Id":  "autonomous-agent-patterns",
+        "Name":  "autonomous-agent-patterns",
+        "Description":  "\"Design patterns for building autonomous coding agents. Covers tool integration, permission systems, browser automation, and human-in-the-loop workflows. Use when building AI agents, designing tool APIs, implementing permission systems, or creating autonomous coding assistants.\"",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\autonomous-agent-patterns"
+    },
+    {
+        "Id":  "aws-penetration-testing",
+        "Name":  "AWS Penetration Testing",
+        "Description":  "This skill should be used when the user asks to \"pentest AWS\", \"test AWS security\", \"enumerate IAM\", \"exploit cloud infrastructure\", \"AWS privilege escalation\", \"S3 bucket testing\", \"metadata SSRF\", \"Lambda exploitation\", or needs guidance on Amazon Web Services security assessment.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\aws-penetration-testing"
+    },
+    {
+        "Id":  "backend-dev-guidelines",
+        "Name":  "backend-dev-guidelines",
+        "Description":  "Comprehensive backend development guide for Node.js/Express/TypeScript microservices. Use when creating routes, controllers, services, repositories, middleware, or working with Express APIs, Prisma database access, Sentry error tracking, Zod validation, unifiedConfig, dependency injection, or async patterns. Covers layered architecture (routes â†’ controllers â†’ services â†’ repositories), BaseController pattern, error handling, performance monitoring, testing strategies, and migration from legacy patterns.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\backend-dev-guidelines"
+    },
+    {
+        "Id":  "backend-development",
+        "Name":  "backend-development",
+        "Description":  "Backend API design, database architecture, microservices patterns, and test-driven development. Use for designing APIs, database schemas, or backend system architecture.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\backend-development"
+    },
+    {
+        "Id":  "backend-guidelines",
+        "Name":  "Backend Guidelines",
+        "Description":  "Core architecture patterns for Node/Express microservices",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\backend-guidelines"
+    },
+    {
+        "Id":  "background-check-integration",
+        "Name":  "background-check-integration",
+        "Description":  "Integrate with background check providers for candidate verification.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\background-check-integration"
+    },
+    {
+        "Id":  "bert-resume-matcher",
+        "Name":  "bert-resume-matcher",
+        "Description":  "BERT-based resume-job matching using transformers.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\bert-resume-matcher"
+    },
+    {
+        "Id":  "boolean-string-generator",
+        "Name":  "boolean-string-generator",
+        "Description":  "Generate boolean search strings for recruitment sourcing.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\boolean-string-generator"
+    },
+    {
+        "Id":  "brainstorming",
+        "Name":  "brainstorming",
+        "Description":  "\"You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.\"",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\brainstorming"
+    },
+    {
+        "Id":  "brand-guidelines",
+        "Name":  "brand-guidelines",
+        "Description":  "Apply brand colors and typography to artifacts. Use when brand colors, style guidelines, visual formatting, or company design standards apply. Ensures consistency across branded content.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\brand-guidelines"
+    },
+    {
+        "Id":  "brand-guidelines-anthropic",
+        "Name":  "brand-guidelines",
+        "Description":  "Applies Anthropic\u0027s official brand colors and typography to any sort of artifact that may benefit from having Anthropic\u0027s look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\brand-guidelines-anthropic"
+    },
+    {
+        "Id":  "brand-guidelines-community",
+        "Name":  "brand-guidelines",
+        "Description":  "Applies Anthropic\u0027s official brand colors and typography to any sort of artifact that may benefit from having Anthropic\u0027s look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\brand-guidelines-community"
+    },
+    {
+        "Id":  "broken-authentication",
+        "Name":  "Broken Authentication Testing",
+        "Description":  "This skill should be used when the user asks to \"test for broken authentication vulnerabilities\", \"assess session management security\", \"perform credential stuffing tests\", \"evaluate password policies\", \"test for session fixation\", or \"identify authentication bypass flaws\". It provides comprehensive techniques for identifying authentication and session management weaknesses in web applications.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\broken-authentication"
+    },
+    {
+        "Id":  "bun-development",
+        "Name":  "bun-development",
+        "Description":  "\"Modern JavaScript/TypeScript development with Bun runtime. Covers package management, bundling, testing, and migration from Node.js. Use when working with Bun, optimizing JS/TS development speed, or migrating from Node.js to Bun.\"",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\bun-development"
+    },
+    {
+        "Id":  "burp-suite-testing",
+        "Name":  "Burp Suite Web Application Testing",
+        "Description":  "This skill should be used when the user asks to \"intercept HTTP traffic\", \"modify web requests\", \"use Burp Suite for testing\", \"perform web vulnerability scanning\", \"test with Burp Repeater\", \"analyze HTTP history\", or \"configure proxy for web testing\". It provides comprehensive guidance for using Burp Suite\u0027s core features for web application security testing.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\burp-suite-testing"
+    },
+    {
+        "Id":  "calendar-interview-scheduler",
+        "Name":  "calendar-interview-scheduler",
+        "Description":  "Schedule interviews with calendar integration (Google Calendar, Outlook).",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\calendar-interview-scheduler"
+    },
+    {
+        "Id":  "candidate-communication-logger",
+        "Name":  "candidate-communication-logger",
+        "Description":  "Log all candidate communications for audit and relationship tracking.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\candidate-communication-logger"
+    },
+    {
+        "Id":  "candidate-intake-webforms",
+        "Name":  "candidate-intake-webforms",
+        "Description":  "Build candidate intake forms with validation, file upload, and Firestore storage.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\candidate-intake-webforms"
+    },
+    {
+        "Id":  "candidate-matching-algorithm",
+        "Name":  "candidate-matching-algorithm",
+        "Description":  "Match candidates to vacancies using weighted scoring across skills, experience, location, and preferences.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\candidate-matching-algorithm"
+    },
+    {
+        "Id":  "candidate-portfolio-evaluator",
+        "Name":  "candidate-portfolio-evaluator",
+        "Description":  "Evaluate candidate portfolios (GitHub, personal sites) from public sources only.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\candidate-portfolio-evaluator"
+    },
+    {
+        "Id":  "candidate-rediscovery",
+        "Name":  "candidate-rediscovery",
+        "Description":  "Rediscover past candidates from owned database for new opportunities.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\candidate-rediscovery"
+    },
+    {
+        "Id":  "canvas-design",
+        "Name":  "canvas-design",
+        "Description":  "Create beautiful visual art in .png and .pdf documents using design philosophy. Use when the user asks to create a poster, piece of art, design, or other static visual piece. Creates original visual designs.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\canvas-design"
+    },
+    {
+        "Id":  "careerbert-job-matching",
+        "Name":  "careerbert-job-matching",
+        "Description":  "Job-resume matching using transformer embeddings (BERT/CareerBERT). Semantic similarity for candidate ranking.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\careerbert-job-matching"
+    },
+    {
+        "Id":  "changelog-generator",
+        "Name":  "changelog-generator",
+        "Description":  "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\changelog-generator"
+    },
+    {
+        "Id":  "cicd-pipelines",
+        "Name":  "CI/CD Pipelines",
+        "Description":  "GitHub Actions and continuous integration patterns",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cicd-pipelines"
+    },
+    {
+        "Id":  "claude-code-guide",
+        "Name":  "Claude Code Guide",
+        "Description":  "Master guide for using Claude Code effectively. Includes configuration templates, prompting strategies \"Thinking\" keywords, debugging techniques, and best practices for interacting with the agent.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\claude-code-guide"
+    },
+    {
+        "Id":  "claude-d3js-skill",
+        "Name":  "d3-viz",
+        "Description":  "Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based data visualisation that requires fine-grained control over visual elements, transitions, or interactions. Use this for bespoke visualisations beyond standard charting libraries, whether in React, Vue, Svelte, vanilla JavaScript, or any other environment.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\claude-d3js-skill"
+    },
+    {
+        "Id":  "cloud-functions-typescript-starter",
+        "Name":  "cloud-functions-typescript-starter",
+        "Description":  "TypeScript Cloud Functions starter with proper structure, testing, and deployment patterns.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cloud-functions-typescript-starter"
+    },
+    {
+        "Id":  "cloud-penetration-testing",
+        "Name":  "Cloud Penetration Testing",
+        "Description":  "This skill should be used when the user asks to \"perform cloud penetration testing\", \"assess Azure or AWS or GCP security\", \"enumerate cloud resources\", \"exploit cloud misconfigurations\", \"test O365 security\", \"extract secrets from cloud environments\", or \"audit cloud infrastructure\". It provides comprehensive techniques for security assessment across major cloud platforms.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cloud-penetration-testing"
+    },
+    {
+        "Id":  "code-documentation",
+        "Name":  "code-documentation",
+        "Description":  "Writing effective code documentation - API docs, README files, inline comments, and technical guides. Use for documenting codebases, APIs, or writing developer guides.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\code-documentation"
+    },
+    {
+        "Id":  "code-refactoring",
+        "Name":  "code-refactoring",
+        "Description":  "Code refactoring patterns and techniques for improving code quality without changing behavior. Use for cleaning up legacy code, reducing complexity, or improving maintainability.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\code-refactoring"
+    },
+    {
+        "Id":  "code-review",
+        "Name":  "code-review",
+        "Description":  "Automated code review for pull requests using specialized review patterns. Analyzes code for quality, security, performance, and best practices. Use when reviewing code changes, PRs, or doing code audits.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\code-review"
+    },
+    {
+        "Id":  "coding-challenge-evaluator",
+        "Name":  "coding-challenge-evaluator",
+        "Description":  "Evaluate coding challenge submissions with automated testing and scoring.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\coding-challenge-evaluator"
+    },
+    {
+        "Id":  "compensation-benchmarker",
+        "Name":  "compensation-benchmarker",
+        "Description":  "Benchmark salaries for Sri Lanka IT market.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\compensation-benchmarker"
+    },
+    {
+        "Id":  "competitive-ads-extractor",
+        "Name":  "competitive-ads-extractor",
+        "Description":  "Extracts and analyzes competitors\u0027 ads from ad libraries (Facebook, LinkedIn, etc.) to understand what messaging, problems, and creative approaches are working. Helps inspire and improve your own ad campaigns.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\competitive-ads-extractor"
+    },
+    {
+        "Id":  "concise-planning",
+        "Name":  "concise-planning",
+        "Description":  "Use when a user asks for a plan for a coding task, to generate a clear, actionable, and atomic checklist.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\concise-planning"
+    },
+    {
+        "Id":  "connect",
+        "Name":  "connect",
+        "Description":  "Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 1000+ services.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\connect"
+    },
+    {
+        "Id":  "connect-apps",
+        "Name":  "connect-apps",
+        "Description":  "Connect Claude to external apps like Gmail, Slack, GitHub. Use this skill when the user wants to send emails, create issues, post messages, or take actions in external services.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\connect-apps"
+    },
+    {
+        "Id":  "consent-retention-pdpa-sri-lanka",
+        "Name":  "consent-retention-pdpa-sri-lanka",
+        "Description":  "Implement consent management and data retention per Sri Lanka PDPA (No. 9 of 2022).",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\consent-retention-pdpa-sri-lanka"
+    },
+    {
+        "Id":  "content-creator",
+        "Name":  "content-creator",
+        "Description":  "Create SEO-optimized marketing content with consistent brand voice. Includes brand voice analyzer, SEO optimizer, content frameworks, and social media templates. Use when writing blog posts, creating social media content, analyzing brand voice, optimizing SEO, planning content calendars, or when user mentions content creation, brand voice, SEO optimization, social media marketing, or content strategy.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\content-creator"
+    },
+    {
+        "Id":  "content-research-writer",
+        "Name":  "content-research-writer",
+        "Description":  "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\content-research-writer"
+    },
+    {
+        "Id":  "core-components",
+        "Name":  "core-components",
+        "Description":  "Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\core-components"
+    },
+    {
+        "Id":  "cost-guardrails-firestore",
+        "Name":  "cost-guardrails-firestore",
+        "Description":  "Implement cost controls for Firestore to prevent runaway bills from inefficient queries or abuse.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cost-guardrails-firestore"
+    },
+    {
+        "Id":  "create-plan",
+        "Name":  "create-plan",
+        "Description":  "Create a concise plan. Use when a user explicitly asks for a plan related to a coding task.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\create-plan"
+    },
+    {
+        "Id":  "crm-activity-logging",
+        "Name":  "crm-activity-logging",
+        "Description":  "CRM activity and interaction logging using Firebase/Firestore. Track leads, contacts, deals, and activities.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\crm-activity-logging"
+    },
+    {
+        "Id":  "cultural-fit-assessor",
+        "Name":  "cultural-fit-assessor",
+        "Description":  "Assess cultural fit through structured values alignment questions.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cultural-fit-assessor"
+    },
+    {
+        "Id":  "cv-ingest-and-dedupe",
+        "Name":  "cv-ingest-and-dedupe",
+        "Description":  "Ingest CVs from multiple sources and deduplicate candidates by email, phone, and name similarity.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cv-ingest-and-dedupe"
+    },
+    {
+        "Id":  "cv-job-matcher",
+        "Name":  "cv-job-matcher",
+        "Description":  "CV-Job matching using BERT embeddings and cosine similarity.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cv-job-matcher"
+    },
+    {
+        "Id":  "cybersec-active-directory-recon",
+        "Name":  "cybersec-active-directory-recon",
+        "Description":  "Specialized Cybersecurity skill for cybersec-active-directory-recon tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-active-directory-recon"
+    },
+    {
+        "Id":  "cybersec-api-security-fuzzing",
+        "Name":  "cybersec-api-security-fuzzing",
+        "Description":  "Specialized Cybersecurity skill for cybersec-api-security-fuzzing tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-api-security-fuzzing"
+    },
+    {
+        "Id":  "cybersec-binary-exploitation-basics",
+        "Name":  "cybersec-binary-exploitation-basics",
+        "Description":  "Specialized Cybersecurity skill for cybersec-binary-exploitation-basics tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-binary-exploitation-basics"
+    },
+    {
+        "Id":  "cybersec-blockchain-smart-contract-audit",
+        "Name":  "cybersec-blockchain-smart-contract-audit",
+        "Description":  "Specialized Cybersecurity skill for cybersec-blockchain-smart-contract-audit tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-blockchain-smart-contract-audit"
+    },
+    {
+        "Id":  "cybersec-blue-team-defense-strategy",
+        "Name":  "cybersec-blue-team-defense-strategy",
+        "Description":  "Specialized Cybersecurity skill for cybersec-blue-team-defense-strategy tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-blue-team-defense-strategy"
+    },
+    {
+        "Id":  "cybersec-cloud-misconfig-audit",
+        "Name":  "cybersec-cloud-misconfig-audit",
+        "Description":  "Specialized Cybersecurity skill for cybersec-cloud-misconfig-audit tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-cloud-misconfig-audit"
+    },
+    {
+        "Id":  "cybersec-compliance-mapping-gdpr-soc2",
+        "Name":  "cybersec-compliance-mapping-gdpr-soc2",
+        "Description":  "Specialized Cybersecurity skill for cybersec-compliance-mapping-gdpr-soc2 tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-compliance-mapping-gdpr-soc2"
+    },
+    {
+        "Id":  "cybersec-container-escape-testing",
+        "Name":  "cybersec-container-escape-testing",
+        "Description":  "Specialized Cybersecurity skill for cybersec-container-escape-testing tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-container-escape-testing"
+    },
+    {
+        "Id":  "cybersec-cryptography-implementation-audit",
+        "Name":  "cybersec-cryptography-implementation-audit",
+        "Description":  "Specialized Cybersecurity skill for cybersec-cryptography-implementation-audit tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-cryptography-implementation-audit"
+    },
+    {
+        "Id":  "cybersec-devsecops-pipeline-hardening",
+        "Name":  "cybersec-devsecops-pipeline-hardening",
+        "Description":  "Specialized Cybersecurity skill for cybersec-devsecops-pipeline-hardening tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-devsecops-pipeline-hardening"
+    },
+    {
+        "Id":  "cybersec-hardware-tamper-detection",
+        "Name":  "cybersec-hardware-tamper-detection",
+        "Description":  "Specialized Cybersecurity skill for cybersec-hardware-tamper-detection tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-hardware-tamper-detection"
+    },
+    {
+        "Id":  "cybersec-identity-access-audit",
+        "Name":  "cybersec-identity-access-audit",
+        "Description":  "Specialized Cybersecurity skill for cybersec-identity-access-audit tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-identity-access-audit"
+    },
+    {
+        "Id":  "cybersec-incident-forensics-triage",
+        "Name":  "cybersec-incident-forensics-triage",
+        "Description":  "Specialized Cybersecurity skill for cybersec-incident-forensics-triage tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-incident-forensics-triage"
+    },
+    {
+        "Id":  "cybersec-iot-firmware-reversing",
+        "Name":  "cybersec-iot-firmware-reversing",
+        "Description":  "Specialized Cybersecurity skill for cybersec-iot-firmware-reversing tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-iot-firmware-reversing"
+    },
+    {
+        "Id":  "cybersec-malware-analysis-static",
+        "Name":  "cybersec-malware-analysis-static",
+        "Description":  "Specialized Cybersecurity skill for cybersec-malware-analysis-static tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-malware-analysis-static"
+    },
+    {
+        "Id":  "cybersec-mobile-app-static-analysis",
+        "Name":  "cybersec-mobile-app-static-analysis",
+        "Description":  "Specialized Cybersecurity skill for cybersec-mobile-app-static-analysis tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-mobile-app-static-analysis"
+    },
+    {
+        "Id":  "cybersec-os-kernel-hardening",
+        "Name":  "cybersec-os-kernel-hardening",
+        "Description":  "Specialized Cybersecurity skill for cybersec-os-kernel-hardening tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-os-kernel-hardening"
+    },
+    {
+        "Id":  "cybersec-pentesting-web",
+        "Name":  "cybersec-pentesting-web",
+        "Description":  "Specialized Cybersecurity skill for cybersec-pentesting-web tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-pentesting-web"
+    },
+    {
+        "Id":  "cybersec-phishing-simulation-design",
+        "Name":  "cybersec-phishing-simulation-design",
+        "Description":  "Specialized Cybersecurity skill for cybersec-phishing-simulation-design tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-phishing-simulation-design"
+    },
+    {
+        "Id":  "cybersec-ransomware-readiness-check",
+        "Name":  "cybersec-ransomware-readiness-check",
+        "Description":  "Specialized Cybersecurity skill for cybersec-ransomware-readiness-check tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-ransomware-readiness-check"
+    },
+    {
+        "Id":  "cybersec-red-team-operation-plan",
+        "Name":  "cybersec-red-team-operation-plan",
+        "Description":  "Specialized Cybersecurity skill for cybersec-red-team-operation-plan tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-red-team-operation-plan"
+    },
+    {
+        "Id":  "cybersec-reverse-engineering-arm-mips",
+        "Name":  "cybersec-reverse-engineering-arm-mips",
+        "Description":  "Specialized Cybersecurity skill for cybersec-reverse-engineering-arm-mips tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-reverse-engineering-arm-mips"
+    },
+    {
+        "Id":  "cybersec-sbom-vulnerability-scan",
+        "Name":  "cybersec-sbom-vulnerability-scan",
+        "Description":  "Specialized Cybersecurity skill for cybersec-sbom-vulnerability-scan tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-sbom-vulnerability-scan"
+    },
+    {
+        "Id":  "cybersec-soc-automation-rules",
+        "Name":  "cybersec-soc-automation-rules",
+        "Description":  "Specialized Cybersecurity skill for cybersec-soc-automation-rules tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-soc-automation-rules"
+    },
+    {
+        "Id":  "cybersec-social-engineering-risk-eval",
+        "Name":  "cybersec-social-engineering-risk-eval",
+        "Description":  "Specialized Cybersecurity skill for cybersec-social-engineering-risk-eval tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-social-engineering-risk-eval"
+    },
+    {
+        "Id":  "cybersec-stealth-exfiltration-detection",
+        "Name":  "cybersec-stealth-exfiltration-detection",
+        "Description":  "Specialized Cybersecurity skill for cybersec-stealth-exfiltration-detection tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-stealth-exfiltration-detection"
+    },
+    {
+        "Id":  "cybersec-supply-chain-risk-mgmt",
+        "Name":  "cybersec-supply-chain-risk-mgmt",
+        "Description":  "Specialized Cybersecurity skill for cybersec-supply-chain-risk-mgmt tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-supply-chain-risk-mgmt"
+    },
+    {
+        "Id":  "cybersec-threat-hunting-kql-queries",
+        "Name":  "cybersec-threat-hunting-kql-queries",
+        "Description":  "Specialized Cybersecurity skill for cybersec-threat-hunting-kql-queries tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-threat-hunting-kql-queries"
+    },
+    {
+        "Id":  "cybersec-wireless-network-audit",
+        "Name":  "cybersec-wireless-network-audit",
+        "Description":  "Specialized Cybersecurity skill for cybersec-wireless-network-audit tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-wireless-network-audit"
+    },
+    {
+        "Id":  "cybersec-zero-trust-arch-audit",
+        "Name":  "cybersec-zero-trust-arch-audit",
+        "Description":  "Specialized Cybersecurity skill for cybersec-zero-trust-arch-audit tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\cybersec-zero-trust-arch-audit"
+    },
+    {
+        "Id":  "data-analytics-statistical-t-test",
+        "Name":  "data-analytics-statistical-t-test",
+        "Description":  "Specialized Data Engineering skill for data-analytics-statistical-t-test tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-analytics-statistical-t-test"
+    },
+    {
+        "Id":  "data-api-fastapi-pydantic-logic",
+        "Name":  "data-api-fastapi-pydantic-logic",
+        "Description":  "Specialized Data Engineering skill for data-api-fastapi-pydantic-logic tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-api-fastapi-pydantic-logic"
+    },
+    {
+        "Id":  "data-dbt-model-refactoring",
+        "Name":  "data-dbt-model-refactoring",
+        "Description":  "Specialized Data Engineering skill for data-dbt-model-refactoring tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-dbt-model-refactoring"
+    },
+    {
+        "Id":  "data-duckdb-analytical-queries",
+        "Name":  "data-duckdb-analytical-queries",
+        "Description":  "Specialized Data Engineering skill for data-duckdb-analytical-queries tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-duckdb-analytical-queries"
+    },
+    {
+        "Id":  "data-etl-pipeline-airflow-dag",
+        "Name":  "data-etl-pipeline-airflow-dag",
+        "Description":  "Specialized Data Engineering skill for data-etl-pipeline-airflow-dag tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-etl-pipeline-airflow-dag"
+    },
+    {
+        "Id":  "data-governance-catalog-amundsen",
+        "Name":  "data-governance-catalog-amundsen",
+        "Description":  "Specialized Data Engineering skill for data-governance-catalog-amundsen tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-governance-catalog-amundsen"
+    },
+    {
+        "Id":  "data-graph-neo4j-cypher-logic",
+        "Name":  "data-graph-neo4j-cypher-logic",
+        "Description":  "Specialized Data Engineering skill for data-graph-neo4j-cypher-logic tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-graph-neo4j-cypher-logic"
+    },
+    {
+        "Id":  "data-lake-delta-table-mgmt",
+        "Name":  "data-lake-delta-table-mgmt",
+        "Description":  "Specialized Data Engineering skill for data-lake-delta-table-mgmt tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-lake-delta-table-mgmt"
+    },
+    {
+        "Id":  "data-lineage-openlineage-setup",
+        "Name":  "data-lineage-openlineage-setup",
+        "Description":  "Specialized Data Engineering skill for data-lineage-openlineage-setup tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-lineage-openlineage-setup"
+    },
+    {
+        "Id":  "data-polars-optimization-guide",
+        "Name":  "data-polars-optimization-guide",
+        "Description":  "Specialized Data Engineering skill for data-polars-optimization-guide tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-polars-optimization-guide"
+    },
+    {
+        "Id":  "data-privacy-gdpr-masking-ref",
+        "Name":  "data-privacy-gdpr-masking-ref",
+        "Description":  "Specialized Data Engineering skill for data-privacy-gdpr-masking-ref tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-privacy-gdpr-masking-ref"
+    },
+    {
+        "Id":  "data-quality-expectations-ge",
+        "Name":  "data-quality-expectations-ge",
+        "Description":  "Specialized Data Engineering skill for data-quality-expectations-ge tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-quality-expectations-ge"
+    },
+    {
+        "Id":  "data-schema-registry-avro-evolution",
+        "Name":  "data-schema-registry-avro-evolution",
+        "Description":  "Specialized Data Engineering skill for data-schema-registry-avro-evolution tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-schema-registry-avro-evolution"
+    },
+    {
+        "Id":  "data-scraping-selenium-anti-detect",
+        "Name":  "data-scraping-selenium-anti-detect",
+        "Description":  "Specialized Data Engineering skill for data-scraping-selenium-anti-detect tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-scraping-selenium-anti-detect"
+    },
+    {
+        "Id":  "data-spark-pyspark-scaling",
+        "Name":  "data-spark-pyspark-scaling",
+        "Description":  "Specialized Data Engineering skill for data-spark-pyspark-scaling tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-spark-pyspark-scaling"
+    },
+    {
+        "Id":  "data-streaming-kafka-cluster-ops",
+        "Name":  "data-streaming-kafka-cluster-ops",
+        "Description":  "Specialized Data Engineering skill for data-streaming-kafka-cluster-ops tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-streaming-kafka-cluster-ops"
+    },
+    {
+        "Id":  "data-time-series-forecasting-prophet",
+        "Name":  "data-time-series-forecasting-prophet",
+        "Description":  "Specialized Data Engineering skill for data-time-series-forecasting-prophet tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-time-series-forecasting-prophet"
+    },
+    {
+        "Id":  "data-vector-search-milvus-hybrid",
+        "Name":  "data-vector-search-milvus-hybrid",
+        "Description":  "Specialized Data Engineering skill for data-vector-search-milvus-hybrid tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-vector-search-milvus-hybrid"
+    },
+    {
+        "Id":  "data-visual-superset-dashboard-dev",
+        "Name":  "data-visual-superset-dashboard-dev",
+        "Description":  "Specialized Data Engineering skill for data-visual-superset-dashboard-dev tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-visual-superset-dashboard-dev"
+    },
+    {
+        "Id":  "data-warehouse-snowflake-tuning",
+        "Name":  "data-warehouse-snowflake-tuning",
+        "Description":  "Specialized Data Engineering skill for data-warehouse-snowflake-tuning tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\data-warehouse-snowflake-tuning"
+    },
+    {
+        "Id":  "database-design",
+        "Name":  "database-design",
+        "Description":  "Database schema design, optimization, and migration patterns for PostgreSQL, MySQL, and NoSQL databases. Use for designing schemas, writing migrations, or optimizing queries.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\database-design"
+    },
+    {
+        "Id":  "deepmatch-ner-embeddings",
+        "Name":  "deepmatch-ner-embeddings",
+        "Description":  "Deep NER-based matching using entity extraction and embedding similarity for candidates.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\deepmatch-ner-embeddings"
+    },
+    {
+        "Id":  "deezy-match",
+        "Name":  "deezy-match",
+        "Description":  "Deep-learning based fuzzy string matching for entity resolution.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\deezy-match"
+    },
+    {
+        "Id":  "dev-api-documentation-spectral-oas",
+        "Name":  "dev-api-documentation-spectral-oas",
+        "Description":  "Specialized Development skill for dev-api-documentation-spectral-oas tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-api-documentation-spectral-oas"
+    },
+    {
+        "Id":  "dev-api-rest-hypermedia-hateoas",
+        "Name":  "dev-api-rest-hypermedia-hateoas",
+        "Description":  "Specialized Development skill for dev-api-rest-hypermedia-hateoas tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-api-rest-hypermedia-hateoas"
+    },
+    {
+        "Id":  "dev-backend-graphql-federation-design",
+        "Name":  "dev-backend-graphql-federation-design",
+        "Description":  "Specialized Development skill for dev-backend-graphql-federation-design tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-backend-graphql-federation-design"
+    },
+    {
+        "Id":  "dev-backend-grpc-service-mesh",
+        "Name":  "dev-backend-grpc-service-mesh",
+        "Description":  "Specialized Development skill for dev-backend-grpc-service-mesh tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-backend-grpc-service-mesh"
+    },
+    {
+        "Id":  "dev-compiler-design-llvm-ir",
+        "Name":  "dev-compiler-design-llvm-ir",
+        "Description":  "Specialized Development skill for dev-compiler-design-llvm-ir tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-compiler-design-llvm-ir"
+    },
+    {
+        "Id":  "dev-database-internals-engine-design",
+        "Name":  "dev-database-internals-engine-design",
+        "Description":  "Specialized Development skill for dev-database-internals-engine-design tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-database-internals-engine-design"
+    },
+    {
+        "Id":  "dev-embedded-arduino-c-lowlevel",
+        "Name":  "dev-embedded-arduino-c-lowlevel",
+        "Description":  "Specialized Development skill for dev-embedded-arduino-c-lowlevel tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-embedded-arduino-c-lowlevel"
+    },
+    {
+        "Id":  "dev-embedded-esp32-freertos",
+        "Name":  "dev-embedded-esp32-freertos",
+        "Description":  "Specialized Development skill for dev-embedded-esp32-freertos tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-embedded-esp32-freertos"
+    },
+    {
+        "Id":  "dev-frontend-accessible-a11y-audit",
+        "Name":  "dev-frontend-accessible-a11y-audit",
+        "Description":  "Specialized Development skill for dev-frontend-accessible-a11y-audit tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-frontend-accessible-a11y-audit"
+    },
+    {
+        "Id":  "dev-frontend-micro-frontend-strategy",
+        "Name":  "dev-frontend-micro-frontend-strategy",
+        "Description":  "Specialized Development skill for dev-frontend-micro-frontend-strategy tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-frontend-micro-frontend-strategy"
+    },
+    {
+        "Id":  "dev-frontend-webgl-shaders-glsl",
+        "Name":  "dev-frontend-webgl-shaders-glsl",
+        "Description":  "Specialized Development skill for dev-frontend-webgl-shaders-glsl tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-frontend-webgl-shaders-glsl"
+    },
+    {
+        "Id":  "dev-gamedev-unity-csharp-opt",
+        "Name":  "dev-gamedev-unity-csharp-opt",
+        "Description":  "Specialized Development skill for dev-gamedev-unity-csharp-opt tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-gamedev-unity-csharp-opt"
+    },
+    {
+        "Id":  "dev-gamedev-unreal-cpp-ref",
+        "Name":  "dev-gamedev-unreal-cpp-ref",
+        "Description":  "Specialized Development skill for dev-gamedev-unreal-cpp-ref tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-gamedev-unreal-cpp-ref"
+    },
+    {
+        "Id":  "dev-highperf-cpp-template-meta",
+        "Name":  "dev-highperf-cpp-template-meta",
+        "Description":  "Specialized Development skill for dev-highperf-cpp-template-meta tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-highperf-cpp-template-meta"
+    },
+    {
+        "Id":  "dev-highperf-go-concurrency-tuning",
+        "Name":  "dev-highperf-go-concurrency-tuning",
+        "Description":  "Specialized Development skill for dev-highperf-go-concurrency-tuning tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-highperf-go-concurrency-tuning"
+    },
+    {
+        "Id":  "dev-highperf-rust-simd-opt",
+        "Name":  "dev-highperf-rust-simd-opt",
+        "Description":  "Specialized Development skill for dev-highperf-rust-simd-opt tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-highperf-rust-simd-opt"
+    },
+    {
+        "Id":  "dev-highperf-zig-memory-safety",
+        "Name":  "dev-highperf-zig-memory-safety",
+        "Description":  "Specialized Development skill for dev-highperf-zig-memory-safety tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-highperf-zig-memory-safety"
+    },
+    {
+        "Id":  "dev-kernel-linux-module-basics",
+        "Name":  "dev-kernel-linux-module-basics",
+        "Description":  "Specialized Development skill for dev-kernel-linux-module-basics tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-kernel-linux-module-basics"
+    },
+    {
+        "Id":  "dev-kernel-windows-driver-philosophy",
+        "Name":  "dev-kernel-windows-driver-philosophy",
+        "Description":  "Specialized Development skill for dev-kernel-windows-driver-philosophy tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-kernel-windows-driver-philosophy"
+    },
+    {
+        "Id":  "dev-mobile-flutter-state-mgmt",
+        "Name":  "dev-mobile-flutter-state-mgmt",
+        "Description":  "Specialized Development skill for dev-mobile-flutter-state-mgmt tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-mobile-flutter-state-mgmt"
+    },
+    {
+        "Id":  "dev-mobile-kotlin-android-jetpack",
+        "Name":  "dev-mobile-kotlin-android-jetpack",
+        "Description":  "Specialized Development skill for dev-mobile-kotlin-android-jetpack tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-mobile-kotlin-android-jetpack"
+    },
+    {
+        "Id":  "dev-mobile-react-native-bridge",
+        "Name":  "dev-mobile-react-native-bridge",
+        "Description":  "Specialized Development skill for dev-mobile-react-native-bridge tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-mobile-react-native-bridge"
+    },
+    {
+        "Id":  "dev-mobile-swift-swiftui-patterns",
+        "Name":  "dev-mobile-swift-swiftui-patterns",
+        "Description":  "Specialized Development skill for dev-mobile-swift-swiftui-patterns tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-mobile-swift-swiftui-patterns"
+    },
+    {
+        "Id":  "dev-ops-helm-chart-templating",
+        "Name":  "dev-ops-helm-chart-templating",
+        "Description":  "Specialized Development skill for dev-ops-helm-chart-templating tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-ops-helm-chart-templating"
+    },
+    {
+        "Id":  "dev-ops-terraform-provider-dev",
+        "Name":  "dev-ops-terraform-provider-dev",
+        "Description":  "Specialized Development skill for dev-ops-terraform-provider-dev tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-ops-terraform-provider-dev"
+    },
+    {
+        "Id":  "dev-testing-mutation-testing-pitest",
+        "Name":  "dev-testing-mutation-testing-pitest",
+        "Description":  "Specialized Development skill for dev-testing-mutation-testing-pitest tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-testing-mutation-testing-pitest"
+    },
+    {
+        "Id":  "dev-testing-property-based-hypothesis",
+        "Name":  "dev-testing-property-based-hypothesis",
+        "Description":  "Specialized Development skill for dev-testing-property-based-hypothesis tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-testing-property-based-hypothesis"
+    },
+    {
+        "Id":  "dev-wasm-rust-frontend-logic",
+        "Name":  "dev-wasm-rust-frontend-logic",
+        "Description":  "Specialized Development skill for dev-wasm-rust-frontend-logic tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-wasm-rust-frontend-logic"
+    },
+    {
+        "Id":  "dev-web3-rust-anchor-setup",
+        "Name":  "dev-web3-rust-anchor-setup",
+        "Description":  "Specialized Development skill for dev-web3-rust-anchor-setup tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-web3-rust-anchor-setup"
+    },
+    {
+        "Id":  "dev-web3-solidity-audit",
+        "Name":  "dev-web3-solidity-audit",
+        "Description":  "Specialized Development skill for dev-web3-solidity-audit tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dev-web3-solidity-audit"
+    },
+    {
+        "Id":  "developer-growth-analysis",
+        "Name":  "developer-growth-analysis",
+        "Description":  "Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning resources from HackerNews, and automatically sends a personalized growth report to your Slack DMs.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\developer-growth-analysis"
+    },
+    {
+        "Id":  "dispatching-parallel-agents",
+        "Name":  "dispatching-parallel-agents",
+        "Description":  "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\dispatching-parallel-agents"
+    },
+    {
+        "Id":  "diversity-metrics-tracker",
+        "Name":  "diversity-metrics-tracker",
+        "Description":  "Track diversity metrics in hiring pipeline for equitable recruitment.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\diversity-metrics-tracker"
+    },
+    {
+        "Id":  "doc-coauthoring",
+        "Name":  "doc-coauthoring",
+        "Description":  "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\doc-coauthoring"
+    },
+    {
+        "Id":  "docker-containers",
+        "Name":  "Docker \u0026 Containers",
+        "Description":  "Docker containerization and orchestration patterns",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\docker-containers"
+    },
+    {
+        "Id":  "documentation",
+        "Name":  "Documentation",
+        "Description":  "Technical documentation writing and maintenance",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\documentation"
+    },
+    {
+        "Id":  "docx-official",
+        "Name":  "docx",
+        "Description":  "\"Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks\"",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\docx-official"
+    },
+    {
+        "Id":  "domain-name-brainstormer",
+        "Name":  "domain-name-brainstormer",
+        "Description":  "Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\domain-name-brainstormer"
+    },
+    {
+        "Id":  "email-template-personalizer",
+        "Name":  "email-template-personalizer",
+        "Description":  "Personalize email templates with candidate and job data.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\email-template-personalizer"
+    },
+    {
+        "Id":  "embedding-search-and-ranking",
+        "Name":  "embedding-search-and-ranking",
+        "Description":  "Semantic search using embeddings (OpenAI, Vertex AI) with vector databases for candidate matching.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\embedding-search-and-ranking"
+    },
+    {
+        "Id":  "entity-extractor-nlp",
+        "Name":  "entity-extractor-nlp",
+        "Description":  "Extract named entities (skills, companies, job titles, education) from resume text using NLP.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\entity-extractor-nlp"
+    },
+    {
+        "Id":  "entity-resolution-dedupeio",
+        "Name":  "entity-resolution-dedupeio",
+        "Description":  "Python library for accurate record linkage and deduplication.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\entity-resolution-dedupeio"
+    },
+    {
+        "Id":  "entity-resolution-splink",
+        "Name":  "entity-resolution-splink",
+        "Description":  "Probabilistic record linkage at scale using Spark/DuckDB.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\entity-resolution-splink"
+    },
+    {
+        "Id":  "error-handling",
+        "Name":  "Error Handling",
+        "Description":  "Robust error handling and exception management patterns",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\error-handling"
+    },
+    {
+        "Id":  "ethical-hacking-methodology",
+        "Name":  "Ethical Hacking Methodology",
+        "Description":  "This skill should be used when the user asks to \"learn ethical hacking\", \"understand penetration testing lifecycle\", \"perform reconnaissance\", \"conduct security scanning\", \"exploit vulnerabilities\", or \"write penetration test reports\". It provides comprehensive ethical hacking methodology and techniques.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ethical-hacking-methodology"
+    },
+    {
+        "Id":  "executing-plans",
+        "Name":  "executing-plans",
+        "Description":  "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\executing-plans"
+    },
+    {
+        "Id":  "explainable-shortlist-generator",
+        "Name":  "explainable-shortlist-generator",
+        "Description":  "Generate shortlists with explainable reasoning for each candidate recommendation.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\explainable-shortlist-generator"
+    },
+    {
+        "Id":  "expo-app-design",
+        "Name":  "expo-app-design",
+        "Description":  "Build beautiful cross-platform mobile apps with Expo Router, NativeWind, and React Native.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\expo-app-design"
+    },
+    {
+        "Id":  "expo-deployment",
+        "Name":  "expo-deployment",
+        "Description":  "Deploy Expo apps to iOS App Store, Android Play Store, and web.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\expo-deployment"
+    },
+    {
+        "Id":  "file-organizer",
+        "Name":  "file-organizer",
+        "Description":  "Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, suggesting better structures, and automating cleanup tasks. Reduces cognitive load and keeps your digital workspace tidy without manual effort.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\file-organizer"
+    },
+    {
+        "Id":  "file-path-traversal",
+        "Name":  "File Path Traversal Testing",
+        "Description":  "This skill should be used when the user asks to \"test for directory traversal\", \"exploit path traversal vulnerabilities\", \"read arbitrary files through web applications\", \"find LFI vulnerabilities\", or \"access files outside web root\". It provides comprehensive file path traversal attack and testing methodologies.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\file-path-traversal"
+    },
+    {
+        "Id":  "finishing-a-development-branch",
+        "Name":  "finishing-a-development-branch",
+        "Description":  "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\finishing-a-development-branch"
+    },
+    {
+        "Id":  "firebase-auth-rbac",
+        "Name":  "firebase-auth-rbac",
+        "Description":  "Firebase Authentication with Role-Based Access Control (RBAC). Patterns for custom claims, protected routes, and admin SDK usage.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\firebase-auth-rbac"
+    },
+    {
+        "Id":  "firebase-deploy",
+        "Name":  "firebase-deploy",
+        "Description":  "Orchestrate secure Firebase deployments (Hosting, Functions, Firestore) via CLI and CI/CD.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\firebase-deploy"
+    },
+    {
+        "Id":  "firebase-extensions-evaluator",
+        "Name":  "firebase-extensions-evaluator",
+        "Description":  "Evaluate Firebase Extensions for fit, cost, security, and maintainability before installation.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\firebase-extensions-evaluator"
+    },
+    {
+        "Id":  "firebase-gen-reports",
+        "Name":  "firebase-gen-reports",
+        "Description":  "Generate reports and analytics from Firestore data using Cloud Functions.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\firebase-gen-reports"
+    },
+    {
+        "Id":  "firebase-hosting-deploy-cicd",
+        "Name":  "firebase-hosting-deploy-cicd",
+        "Description":  "Automate Firebase Hosting deployments with GitHub Actions, preview channels, and multi-environment support.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\firebase-hosting-deploy-cicd"
+    },
+    {
+        "Id":  "firestore-candidate-crud",
+        "Name":  "firestore-candidate-crud",
+        "Description":  "CRUD operations for candidate documents in Firestore with validation and normalization.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\firestore-candidate-crud"
+    },
+    {
+        "Id":  "firestore-schema-design",
+        "Name":  "firestore-schema-design",
+        "Description":  "Best practices for Firestore data modeling, denormalization, subcollections, and query optimization.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\firestore-schema-design"
+    },
+    {
+        "Id":  "firestore-security-rules-audit",
+        "Name":  "firestore-security-rules-audit",
+        "Description":  "Audit and validate Firestore security rules for vulnerabilities, overly permissive access, and compliance.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\firestore-security-rules-audit"
+    },
+    {
+        "Id":  "firestore-vacancy-crud",
+        "Name":  "firestore-vacancy-crud",
+        "Description":  "CRUD operations for vacancy documents in Firestore with status management.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\firestore-vacancy-crud"
+    },
+    {
+        "Id":  "frontend-design",
+        "Name":  "frontend-design",
+        "Description":  "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\frontend-design"
+    },
+    {
+        "Id":  "frontend-dev-guidelines",
+        "Name":  "frontend-dev-guidelines",
+        "Description":  "Frontend development guidelines for React/TypeScript applications. Modern patterns including Suspense, lazy loading, useSuspenseQuery, file organization with features directory, MUI v7 styling, TanStack Router, performance optimization, and TypeScript best practices. Use when creating components, pages, features, fetching data, styling, routing, or working with frontend code.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\frontend-dev-guidelines"
+    },
+    {
+        "Id":  "frontend-guidelines",
+        "Name":  "Frontend Guidelines",
+        "Description":  "Modern React/TypeScript development patterns and file structure",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\frontend-guidelines"
+    },
+    {
+        "Id":  "gale-shapley-matcher",
+        "Name":  "gale-shapley-matcher",
+        "Description":  "Gale-Shapley stable matching algorithm for candidate-job pairing.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\gale-shapley-matcher"
+    },
+    {
+        "Id":  "gh-address-comments",
+        "Name":  "gh-address-comments",
+        "Description":  "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\gh-address-comments"
+    },
+    {
+        "Id":  "gh-fix-ci",
+        "Name":  "gh-fix-ci",
+        "Description":  "Inspect GitHub PR checks with gh, pull failing GitHub Actions logs, summarize failure context, then create a fix plan and implement after user approval. Use when a user asks to debug or fix failing PR CI/CD checks on GitHub Actions and wants a plan + code changes; for external checks (e.g., Buildkite), only report the details URL and mark them out of scope.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\gh-fix-ci"
+    },
+    {
+        "Id":  "git-pushing",
+        "Name":  "git-pushing",
+        "Description":  "Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says \"push changes\", \"commit and push\", \"push this\", \"push to github\", or similar git workflow requests.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\git-pushing"
+    },
+    {
+        "Id":  "git-skill-tag-enforcer",
+        "Name":  "git-skill-tag-enforcer",
+        "Description":  "Installs a git commit-msg hook that rejects commits missing [skill:\u003cid\u003e].",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\git-skill-tag-enforcer"
+    },
+    {
+        "Id":  "git-workflow",
+        "Name":  "Git Workflow",
+        "Description":  "Conventional commits, branching, and automated git operations",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\git-workflow"
+    },
+    {
+        "Id":  "github-profile-sourcer",
+        "Name":  "github-profile-sourcer",
+        "Description":  "Source candidates from public GitHub profiles using PyGithub. Manual input only.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\github-profile-sourcer"
+    },
+    {
+        "Id":  "github-talent-sourcer",
+        "Name":  "github-talent-sourcer",
+        "Description":  "Source developers from GitHub API using PyGithub. Public profiles only.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\github-talent-sourcer"
+    },
+    {
+        "Id":  "github-workflow-automation",
+        "Name":  "github-workflow-automation",
+        "Description":  "\"Automate GitHub workflows with AI assistance. Includes PR reviews, issue triage, CI/CD integration, and Git operations. Use when automating GitHub workflows, setting up PR review automation, creating GitHub Actions, or triaging issues.\"",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\github-workflow-automation"
+    },
+    {
+        "Id":  "hiring-funnel-analytics",
+        "Name":  "hiring-funnel-analytics",
+        "Description":  "Analyze hiring funnel conversion rates and identify bottlenecks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\hiring-funnel-analytics"
+    },
+    {
+        "Id":  "html-injection-testing",
+        "Name":  "HTML Injection Testing",
+        "Description":  "This skill should be used when the user asks to \"test for HTML injection\", \"inject HTML into web pages\", \"perform HTML injection attacks\", \"deface web applications\", or \"test content injection vulnerabilities\". It provides comprehensive HTML injection attack techniques and testing methodologies.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\html-injection-testing"
+    },
+    {
+        "Id":  "idor-testing",
+        "Name":  "IDOR Vulnerability Testing",
+        "Description":  "This skill should be used when the user asks to \"test for insecure direct object references,\" \"find IDOR vulnerabilities,\" \"exploit broken access control,\" \"enumerate user IDs or object references,\" or \"bypass authorization to access other users\u0027 data.\" It provides comprehensive guidance for detecting, exploiting, and remediating IDOR vulnerabilities in web applications.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\idor-testing"
+    },
+    {
+        "Id":  "image-enhancer",
+        "Name":  "image-enhancer",
+        "Description":  "Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity. Perfect for preparing images for presentations, documentation, or social media posts.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\image-enhancer"
+    },
+    {
+        "Id":  "infra-bare-metal-provisioning-maas",
+        "Name":  "infra-bare-metal-provisioning-maas",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-bare-metal-provisioning-maas tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-bare-metal-provisioning-maas"
+    },
+    {
+        "Id":  "infra-chaos-engineering-litmus",
+        "Name":  "infra-chaos-engineering-litmus",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-chaos-engineering-litmus tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-chaos-engineering-litmus"
+    },
+    {
+        "Id":  "infra-chaos-mesh-automation",
+        "Name":  "infra-chaos-mesh-automation",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-chaos-mesh-automation tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-chaos-mesh-automation"
+    },
+    {
+        "Id":  "infra-cicd-github-actions-security-audit",
+        "Name":  "infra-cicd-github-actions-security-audit",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-cicd-github-actions-security-audit tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-cicd-github-actions-security-audit"
+    },
+    {
+        "Id":  "infra-cicd-gitlab-runner-scaling",
+        "Name":  "infra-cicd-gitlab-runner-scaling",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-cicd-gitlab-runner-scaling tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-cicd-gitlab-runner-scaling"
+    },
+    {
+        "Id":  "infra-cloud-cost-savings-finops-audit",
+        "Name":  "infra-cloud-cost-savings-finops-audit",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-cloud-cost-savings-finops-audit tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-cloud-cost-savings-finops-audit"
+    },
+    {
+        "Id":  "infra-database-ha-postgresql-patroni",
+        "Name":  "infra-database-ha-postgresql-patroni",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-database-ha-postgresql-patroni tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-database-ha-postgresql-patroni"
+    },
+    {
+        "Id":  "infra-database-sharding-vitess-basics",
+        "Name":  "infra-database-sharding-vitess-basics",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-database-sharding-vitess-basics tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-database-sharding-vitess-basics"
+    },
+    {
+        "Id":  "infra-incident-postmortem-writing",
+        "Name":  "infra-incident-postmortem-writing",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-incident-postmortem-writing tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-incident-postmortem-writing"
+    },
+    {
+        "Id":  "infra-incident-response-slack-bot",
+        "Name":  "infra-incident-response-slack-bot",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-incident-response-slack-bot tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-incident-response-slack-bot"
+    },
+    {
+        "Id":  "infra-infrastructure-as-code-pulumi-dev",
+        "Name":  "infra-infrastructure-as-code-pulumi-dev",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-infrastructure-as-code-pulumi-dev tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-infrastructure-as-code-pulumi-dev"
+    },
+    {
+        "Id":  "infra-k8s-custom-resource-dev",
+        "Name":  "infra-k8s-custom-resource-dev",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-k8s-custom-resource-dev tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-k8s-custom-resource-dev"
+    },
+    {
+        "Id":  "infra-k8s-pod-security-policies",
+        "Name":  "infra-k8s-pod-security-policies",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-k8s-pod-security-policies tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-k8s-pod-security-policies"
+    },
+    {
+        "Id":  "infra-monitoring-ebpf-deep-packet-inspect",
+        "Name":  "infra-monitoring-ebpf-deep-packet-inspect",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-monitoring-ebpf-deep-packet-inspect tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-monitoring-ebpf-deep-packet-inspect"
+    },
+    {
+        "Id":  "infra-networking-bgp-peering-logic",
+        "Name":  "infra-networking-bgp-peering-logic",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-networking-bgp-peering-logic tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-networking-bgp-peering-logic"
+    },
+    {
+        "Id":  "infra-networking-wireguard-vpn-setup",
+        "Name":  "infra-networking-wireguard-vpn-setup",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-networking-wireguard-vpn-setup tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-networking-wireguard-vpn-setup"
+    },
+    {
+        "Id":  "infra-observability-grafana-dash-dev",
+        "Name":  "infra-observability-grafana-dash-dev",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-observability-grafana-dash-dev tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-observability-grafana-dash-dev"
+    },
+    {
+        "Id":  "infra-observability-prometheus-ql",
+        "Name":  "infra-observability-prometheus-ql",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-observability-prometheus-ql tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-observability-prometheus-ql"
+    },
+    {
+        "Id":  "infra-platform-engineering-idp-backstage",
+        "Name":  "infra-platform-engineering-idp-backstage",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-platform-engineering-idp-backstage tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-platform-engineering-idp-backstage"
+    },
+    {
+        "Id":  "infra-serverless-aws-lambda-opt",
+        "Name":  "infra-serverless-aws-lambda-opt",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-serverless-aws-lambda-opt tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-serverless-aws-lambda-opt"
+    },
+    {
+        "Id":  "infra-serverless-gcp-cloud-run-setup",
+        "Name":  "infra-serverless-gcp-cloud-run-setup",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-serverless-gcp-cloud-run-setup tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-serverless-gcp-cloud-run-setup"
+    },
+    {
+        "Id":  "infra-storage-ceph-cluster-health-check",
+        "Name":  "infra-storage-ceph-cluster-health-check",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-storage-ceph-cluster-health-check tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-storage-ceph-cluster-health-check"
+    },
+    {
+        "Id":  "infra-terraform-module-refactoring",
+        "Name":  "infra-terraform-module-refactoring",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-terraform-module-refactoring tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-terraform-module-refactoring"
+    },
+    {
+        "Id":  "infra-terraform-sentinel-compliance",
+        "Name":  "infra-terraform-sentinel-compliance",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-terraform-sentinel-compliance tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-terraform-sentinel-compliance"
+    },
+    {
+        "Id":  "infra-virtualization-proxmox-api-control",
+        "Name":  "infra-virtualization-proxmox-api-control",
+        "Description":  "Specialized Infrastructure/SRE skill for infra-virtualization-proxmox-api-control tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\infra-virtualization-proxmox-api-control"
+    },
+    {
+        "Id":  "internal-comms",
+        "Name":  "internal-comms",
+        "Description":  "Write internal communications using company formats. Use when writing status reports, leadership updates, company newsletters, FAQs, incident reports, project updates, or any internal communications.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\internal-comms"
+    },
+    {
+        "Id":  "internal-comms-anthropic",
+        "Name":  "internal-comms",
+        "Description":  "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\internal-comms-anthropic"
+    },
+    {
+        "Id":  "internal-comms-community",
+        "Name":  "internal-comms",
+        "Description":  "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\internal-comms-community"
+    },
+    {
+        "Id":  "interview-question-generator",
+        "Name":  "interview-question-generator",
+        "Description":  "Generate role-specific interview questions based on job requirements and skills.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\interview-question-generator"
+    },
+    {
+        "Id":  "interview-scorecard",
+        "Name":  "interview-scorecard",
+        "Description":  "Structured interview scorecards for consistent candidate evaluation.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\interview-scorecard"
+    },
+    {
+        "Id":  "invoice-organizer",
+        "Name":  "invoice-organizer",
+        "Description":  "Automatically organizes invoices and receipts for tax preparation by reading messy files, extracting key information, renaming them consistently, and sorting them into logical folders. Turns hours of manual bookkeeping into minutes of automated organization.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\invoice-organizer"
+    },
+    {
+        "Id":  "javascript-mastery",
+        "Name":  "javascript-mastery",
+        "Description":  "\"Comprehensive JavaScript reference covering 33+ essential concepts every developer should know. From fundamentals like primitives and closures to advanced patterns like async/await and functional programming. Use when explaining JS concepts, debugging JavaScript issues, or teaching JavaScript fundamentals.\"",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\javascript-mastery"
+    },
+    {
+        "Id":  "javascript-typescript",
+        "Name":  "javascript-typescript",
+        "Description":  "JavaScript and TypeScript development with ES6+, Node.js, React, and modern web frameworks. Use for frontend, backend, or full-stack JavaScript/TypeScript projects.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\javascript-typescript"
+    },
+    {
+        "Id":  "jira-issues",
+        "Name":  "jira-issues",
+        "Description":  "Create, update, and manage Jira issues from natural language. Use when the user wants to log bugs, create tickets, update issue status, or manage their Jira backlog.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\jira-issues"
+    },
+    {
+        "Id":  "job-application",
+        "Name":  "job-application",
+        "Description":  "Write tailored cover letters and job applications using your CV and preferred style",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\job-application"
+    },
+    {
+        "Id":  "job-description-optimizer",
+        "Name":  "job-description-optimizer",
+        "Description":  "Optimize job descriptions for clarity, inclusivity, and searchability.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\job-description-optimizer"
+    },
+    {
+        "Id":  "job-matcher-keyword",
+        "Name":  "job-matcher-keyword",
+        "Description":  "Keyword-based job matching algorithm.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\job-matcher-keyword"
+    },
+    {
+        "Id":  "job-recommender",
+        "Name":  "job-recommender",
+        "Description":  "Wrapper for Microsoft Recommenders library for job recommendation algorithms.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\job-recommender"
+    },
+    {
+        "Id":  "job-resume-matcher",
+        "Name":  "job-resume-matcher",
+        "Description":  "Job-resume matching algorithms with TF-IDF and semantic approaches.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\job-resume-matcher"
+    },
+    {
+        "Id":  "kaizen",
+        "Name":  "kaizen",
+        "Description":  "Guide for continuous improvement, error proofing, and standardization. Use this skill when the user wants to improve code quality, refactor, or discuss process improvements.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\kaizen"
+    },
+    {
+        "Id":  "kingsman-inspector",
+        "Name":  "kingsman-inspector",
+        "Description":  "Repository inspection, category classification, risk scanning, and conversion planning",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\kingsman-inspector"
+    },
+    {
+        "Id":  "kingsman-installer",
+        "Name":  "kingsman-installer",
+        "Description":  "Skill staging, installation, registry management, and uninstallation",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\kingsman-installer"
+    },
+    {
+        "Id":  "kingsman-search",
+        "Name":  "kingsman-search",
+        "Description":  "Multi-source skill discovery with natural language search and GitHub integration",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\kingsman-search"
+    },
+    {
+        "Id":  "langsmith-fetch",
+        "Name":  "langsmith-fetch",
+        "Description":  "Debug LangChain and LangGraph agents by fetching execution traces from LangSmith Studio. Use when debugging agent behavior, investigating errors, analyzing tool calls, checking memory operations, or examining agent performance. Automatically fetches recent traces and analyzes execution patterns. Requires langsmith-fetch CLI installed.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\langsmith-fetch"
+    },
+    {
+        "Id":  "lead-research-assistant",
+        "Name":  "lead-research-assistant",
+        "Description":  "Identifies high-quality leads for your product or service by analyzing your business, searching for target companies, and providing actionable contact strategies. Perfect for sales, business development, and marketing professionals.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\lead-research-assistant"
+    },
+    {
+        "Id":  "licenses-and-supplychain-checker",
+        "Name":  "licenses-and-supplychain-checker",
+        "Description":  "Detects repo license type and flags risky dependencies.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\licenses-and-supplychain-checker"
+    },
+    {
+        "Id":  "linear",
+        "Name":  "linear",
+        "Description":  "Manage issues, projects \u0026 team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\linear"
+    },
+    {
+        "Id":  "linkedin-data-export-ingester",
+        "Name":  "linkedin-data-export-ingester",
+        "Description":  "Parse LinkedIn data export files (GDPR download) into structured candidate data.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\linkedin-data-export-ingester"
+    },
+    {
+        "Id":  "linkedin-public-profile-parser",
+        "Name":  "linkedin-public-profile-parser",
+        "Description":  "Parse manually pasted LinkedIn public profile data into structured candidate format. No automation.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\linkedin-public-profile-parser"
+    },
+    {
+        "Id":  "linkedin-public-search-builder",
+        "Name":  "linkedin-public-search-builder",
+        "Description":  "Build LinkedIn X-ray boolean search queries for Google. Manual execution only.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\linkedin-public-search-builder"
+    },
+    {
+        "Id":  "linkedin-xray-query-builder",
+        "Name":  "linkedin-xray-query-builder",
+        "Description":  "Build LinkedIn X-ray queries for Sri Lanka market. Manual search execution only.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\linkedin-xray-query-builder"
+    },
+    {
+        "Id":  "linux-privilege-escalation",
+        "Name":  "Linux Privilege Escalation",
+        "Description":  "This skill should be used when the user asks to \"escalate privileges on Linux\", \"find privesc vectors on Linux systems\", \"exploit sudo misconfigurations\", \"abuse SUID binaries\", \"exploit cron jobs for root access\", \"enumerate Linux systems for privilege escalation\", or \"gain root access from low-privilege shell\". It provides comprehensive techniques for identifying and exploiting privilege escalation paths on Linux systems.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\linux-privilege-escalation"
+    },
+    {
+        "Id":  "linux-shell",
+        "Name":  "Linux Shell Scripting",
+        "Description":  "Production-ready shell scripts for automation",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\linux-shell"
+    },
+    {
+        "Id":  "linux-shell-scripting",
+        "Name":  "Linux Production Shell Scripts",
+        "Description":  "This skill should be used when the user asks to \"create bash scripts\", \"automate Linux tasks\", \"monitor system resources\", \"backup files\", \"manage users\", or \"write production shell scripts\". It provides ready-to-use shell script templates for system administration.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\linux-shell-scripting"
+    },
+    {
+        "Id":  "llm-app-patterns",
+        "Name":  "llm-app-patterns",
+        "Description":  "\"Production-ready patterns for building LLM applications. Covers RAG pipelines, agent architectures, prompt IDEs, and LLMOps monitoring. Use when designing AI applications, implementing RAG, building agents, or setting up LLM observability.\"",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\llm-app-patterns"
+    },
+    {
+        "Id":  "llm-application-dev",
+        "Name":  "llm-application-dev",
+        "Description":  "Building applications with Large Language Models - prompt engineering, RAG patterns, and LLM integration. Use for AI-powered features, chatbots, or LLM-based automation.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\llm-application-dev"
+    },
+    {
+        "Id":  "loki-mode",
+        "Name":  "loki-mode",
+        "Description":  "Multi-agent autonomous startup system for Claude Code. Triggers on \"Loki Mode\". Orchestrates 100+ specialized agents across engineering, QA, DevOps, security, data/ML, business operations, marketing, HR, and customer success. Takes PRD to fully deployed, revenue-generating product with zero human intervention. Features Task tool for subagent dispatch, parallel code review with 3 specialized reviewers, severity-based issue triage, distributed task queue with dead letter handling, automatic deployment to cloud providers, A/B testing, customer feedback loops, incident response, circuit breakers, and self-healing. Handles rate limits via distributed state checkpoints and auto-resume with exponential backoff. Requires --dangerously-skip-permissions flag.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\loki-mode"
+    },
+    {
+        "Id":  "mcp-builder",
+        "Name":  "mcp-builder",
+        "Description":  "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\mcp-builder"
+    },
+    {
+        "Id":  "meeting-insights-analyzer",
+        "Name":  "meeting-insights-analyzer",
+        "Description":  "Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable feedback. Identifies when you avoid conflict, use filler words, dominate conversations, or miss opportunities to listen. Perfect for professionals seeking to improve their communication and leadership skills.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\meeting-insights-analyzer"
+    },
+    {
+        "Id":  "metasploit-framework",
+        "Name":  "Metasploit Framework",
+        "Description":  "This skill should be used when the user asks to \"use Metasploit for penetration testing\", \"exploit vulnerabilities with msfconsole\", \"create payloads with msfvenom\", \"perform post-exploitation\", \"use auxiliary modules for scanning\", or \"develop custom exploits\". It provides comprehensive guidance for leveraging the Metasploit Framework in security assessments.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\metasploit-framework"
+    },
+    {
+        "Id":  "ms-edge-browser",
+        "Name":  "MS Edge Browser Control",
+        "Description":  "Control Microsoft Edge browser for web automation, testing, and navigation using Chrome DevTools Protocol",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ms-edge-browser"
+    },
+    {
+        "Id":  "multi-source-aggregator",
+        "Name":  "multi-source-aggregator",
+        "Description":  "Aggregate candidates from multiple consented sources into unified profiles.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\multi-source-aggregator"
+    },
+    {
+        "Id":  "my-demo-skill",
+        "Name":  "my-demo-skill",
+        "Description":  "Auto-installed skill from local",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\my-demo-skill"
+    },
+    {
+        "Id":  "network-101",
+        "Name":  "Network 101",
+        "Description":  "This skill should be used when the user asks to \"set up a web server\", \"configure HTTP or HTTPS\", \"perform SNMP enumeration\", \"configure SMB shares\", \"test network services\", or needs guidance on configuring and testing network services for penetration testing labs.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\network-101"
+    },
+    {
+        "Id":  "notebooklm",
+        "Name":  "notebooklm",
+        "Description":  "Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations through document-only responses.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\notebooklm"
+    },
+    {
+        "Id":  "notion-knowledge-capture",
+        "Name":  "notion-knowledge-capture",
+        "Description":  "Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\notion-knowledge-capture"
+    },
+    {
+        "Id":  "notion-meeting-intelligence",
+        "Name":  "notion-meeting-intelligence",
+        "Description":  "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\notion-meeting-intelligence"
+    },
+    {
+        "Id":  "notion-research-documentation",
+        "Name":  "notion-research-documentation",
+        "Description":  "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\notion-research-documentation"
+    },
+    {
+        "Id":  "notion-spec-to-implementation",
+        "Name":  "notion-spec-to-implementation",
+        "Description":  "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\notion-spec-to-implementation"
+    },
+    {
+        "Id":  "observability-logging-alerts",
+        "Name":  "observability-logging-alerts",
+        "Description":  "Set up Firebase/GCP observability with structured logging, Cloud Monitoring dashboards, and alerting policies.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\observability-logging-alerts"
+    },
+    {
+        "Id":  "offer-letter-generator",
+        "Name":  "offer-letter-generator",
+        "Description":  "Generate offer letters with company and position details.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\offer-letter-generator"
+    },
+    {
+        "Id":  "onboarding-checklist",
+        "Name":  "onboarding-checklist",
+        "Description":  "Structured onboarding checklist for new hires.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\onboarding-checklist"
+    },
+    {
+        "Id":  "opencats-ats",
+        "Name":  "opencats-ats",
+        "Description":  "Open-source Applicant Tracking System (PHP-based).",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\opencats-ats"
+    },
+    {
+        "Id":  "outreach-email-sequencer",
+        "Name":  "outreach-email-sequencer",
+        "Description":  "Build email outreach sequences for candidate engagement with scheduling and tracking.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\outreach-email-sequencer"
+    },
+    {
+        "Id":  "outreach-message-templates",
+        "Name":  "outreach-message-templates",
+        "Description":  "Email and message templates for candidate outreach with personalization.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\outreach-message-templates"
+    },
+    {
+        "Id":  "owasp-security",
+        "Name":  "OWASP Security",
+        "Description":  "Top 10 security vulnerabilities prevention and testing",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\owasp-security"
+    },
+    {
+        "Id":  "passive-candidate-nurturer",
+        "Name":  "passive-candidate-nurturer",
+        "Description":  "Nurture passive candidates with personalized content and periodic check-ins.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\passive-candidate-nurturer"
+    },
+    {
+        "Id":  "pdf-official",
+        "Name":  "pdf",
+        "Description":  "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pdf-official"
+    },
+    {
+        "Id":  "pentest-checklist",
+        "Name":  "Pentest Checklist",
+        "Description":  "This skill should be used when the user asks to \"plan a penetration test\", \"create a security assessment checklist\", \"prepare for penetration testing\", \"define pentest scope\", \"follow security testing best practices\", or needs a structured methodology for penetration testing engagements.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pentest-checklist"
+    },
+    {
+        "Id":  "pentest-commands",
+        "Name":  "Pentest Commands",
+        "Description":  "This skill should be used when the user asks to \"run pentest commands\", \"scan with nmap\", \"use metasploit exploits\", \"crack passwords with hydra or john\", \"scan web vulnerabilities with nikto\", \"enumerate networks\", or needs essential penetration testing command references.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pentest-commands"
+    },
+    {
+        "Id":  "performance-optimization",
+        "Name":  "Performance Optimization",
+        "Description":  "Web and application performance analysis and optimization",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\performance-optimization"
+    },
+    {
+        "Id":  "pii-redaction-presidio",
+        "Name":  "pii-redaction-presidio",
+        "Description":  "Microsoft Presidio for PII detection and redaction.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pii-redaction-presidio"
+    },
+    {
+        "Id":  "planning-with-files",
+        "Name":  "planning-with-files",
+        "Description":  "Implements Manus-style file-based planning for complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when starting complex multi-step tasks, research projects, or any task requiring \u003e5 tool calls.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\planning-with-files"
+    },
+    {
+        "Id":  "playwright-skill",
+        "Name":  "playwright-skill",
+        "Description":  "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\playwright-skill"
+    },
+    {
+        "Id":  "pptx-official",
+        "Name":  "pptx",
+        "Description":  "\"Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks\"",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pptx-official"
+    },
+    {
+        "Id":  "premium-dashboard-ui-ux",
+        "Name":  "premium-dashboard-ui-ux",
+        "Description":  "\"High-end dashboard UI/UX design and implementation. Specializes in 2025-2026 trends: Liquid Glass, Bento Grids, Scrollytelling, and AI-driven personalization. Supports React (Tremor, shadcn/ui), Vue (PrimeVue), and Svelte (Skeleton). Actions: create, design, build, optimize, review dashboard interfaces. Includes advanced data visualization (Recharts, D3.js) and responsive layout patterns.\"",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\premium-dashboard-ui-ux"
+    },
+    {
+        "Id":  "privilege-escalation-methods",
+        "Name":  "Privilege Escalation Methods",
+        "Description":  "This skill should be used when the user asks to \"escalate privileges\", \"get root access\", \"become administrator\", \"privesc techniques\", \"abuse sudo\", \"exploit SUID binaries\", \"Kerberoasting\", \"pass-the-ticket\", \"token impersonation\", or needs guidance on post-exploitation privilege escalation for Linux or Windows systems.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\privilege-escalation-methods"
+    },
+    {
+        "Id":  "pro-career-portfolio-optimization-dev",
+        "Name":  "pro-career-portfolio-optimization-dev",
+        "Description":  "Specialized Professional/Media skill for pro-career-portfolio-optimization-dev tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-career-portfolio-optimization-dev"
+    },
+    {
+        "Id":  "pro-career-resume-ats-enhancement",
+        "Name":  "pro-career-resume-ats-enhancement",
+        "Description":  "Specialized Professional/Media skill for pro-career-resume-ats-enhancement tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-career-resume-ats-enhancement"
+    },
+    {
+        "Id":  "pro-finance-tax-optimization-niche",
+        "Name":  "pro-finance-tax-optimization-niche",
+        "Description":  "Specialized Professional/Media skill for pro-finance-tax-optimization-niche tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-finance-tax-optimization-niche"
+    },
+    {
+        "Id":  "pro-finance-venture-capital-pitch-prep",
+        "Name":  "pro-finance-venture-capital-pitch-prep",
+        "Description":  "Specialized Professional/Media skill for pro-finance-venture-capital-pitch-prep tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-finance-venture-capital-pitch-prep"
+    },
+    {
+        "Id":  "pro-it-asset-mgmt-inventory-snipe",
+        "Name":  "pro-it-asset-mgmt-inventory-snipe",
+        "Description":  "Specialized Professional/Media skill for pro-it-asset-mgmt-inventory-snipe tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-it-asset-mgmt-inventory-snipe"
+    },
+    {
+        "Id":  "pro-it-disaster-recovery-plan-audit",
+        "Name":  "pro-it-disaster-recovery-plan-audit",
+        "Description":  "Specialized Professional/Media skill for pro-it-disaster-recovery-plan-audit tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-it-disaster-recovery-plan-audit"
+    },
+    {
+        "Id":  "pro-it-network-documentation-logic",
+        "Name":  "pro-it-network-documentation-logic",
+        "Description":  "Specialized Professional/Media skill for pro-it-network-documentation-logic tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-it-network-documentation-logic"
+    },
+    {
+        "Id":  "pro-it-ticketing-system-automation-jira",
+        "Name":  "pro-it-ticketing-system-automation-jira",
+        "Description":  "Specialized Professional/Media skill for pro-it-ticketing-system-automation-jira tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-it-ticketing-system-automation-jira"
+    },
+    {
+        "Id":  "pro-legal-tos-privacy-policy-scan",
+        "Name":  "pro-legal-tos-privacy-policy-scan",
+        "Description":  "Specialized Professional/Media skill for pro-legal-tos-privacy-policy-scan tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-legal-tos-privacy-policy-scan"
+    },
+    {
+        "Id":  "pro-media-blender-rendering-logic",
+        "Name":  "pro-media-blender-rendering-logic",
+        "Description":  "Specialized Professional/Media skill for pro-media-blender-rendering-logic tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-media-blender-rendering-logic"
+    },
+    {
+        "Id":  "pro-media-dithering-retro-aesthetic-opt",
+        "Name":  "pro-media-dithering-retro-aesthetic-opt",
+        "Description":  "Specialized Professional/Media skill for pro-media-dithering-retro-aesthetic-opt tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-media-dithering-retro-aesthetic-opt"
+    },
+    {
+        "Id":  "pro-media-ffmpeg-transcoding",
+        "Name":  "pro-media-ffmpeg-transcoding",
+        "Description":  "Specialized Professional/Media skill for pro-media-ffmpeg-transcoding tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-media-ffmpeg-transcoding"
+    },
+    {
+        "Id":  "pro-media-image-magick-processing",
+        "Name":  "pro-media-image-magick-processing",
+        "Description":  "Specialized Professional/Media skill for pro-media-image-magick-processing tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-media-image-magick-processing"
+    },
+    {
+        "Id":  "pro-media-threejs-scene-dev",
+        "Name":  "pro-media-threejs-scene-dev",
+        "Description":  "Specialized Professional/Media skill for pro-media-threejs-scene-dev tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-media-threejs-scene-dev"
+    },
+    {
+        "Id":  "pro-media-video-editing-timeline-ref",
+        "Name":  "pro-media-video-editing-timeline-ref",
+        "Description":  "Specialized Professional/Media skill for pro-media-video-editing-timeline-ref tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-media-video-editing-timeline-ref"
+    },
+    {
+        "Id":  "pro-mgmt-risk-assessment-log",
+        "Name":  "pro-mgmt-risk-assessment-log",
+        "Description":  "Specialized Professional/Media skill for pro-mgmt-risk-assessment-log tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-mgmt-risk-assessment-log"
+    },
+    {
+        "Id":  "pro-mgmt-scrum-master-automation",
+        "Name":  "pro-mgmt-scrum-master-automation",
+        "Description":  "Specialized Professional/Media skill for pro-mgmt-scrum-master-automation tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-mgmt-scrum-master-automation"
+    },
+    {
+        "Id":  "pro-mgmt-stakeholder-mapping-logic",
+        "Name":  "pro-mgmt-stakeholder-mapping-logic",
+        "Description":  "Specialized Professional/Media skill for pro-mgmt-stakeholder-mapping-logic tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-mgmt-stakeholder-mapping-logic"
+    },
+    {
+        "Id":  "pro-strategy-poter-five-forces-audit",
+        "Name":  "pro-strategy-poter-five-forces-audit",
+        "Description":  "Specialized Professional/Media skill for pro-strategy-poter-five-forces-audit tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-strategy-poter-five-forces-audit"
+    },
+    {
+        "Id":  "pro-strategy-swot-analysis-logic",
+        "Name":  "pro-strategy-swot-analysis-logic",
+        "Description":  "Specialized Professional/Media skill for pro-strategy-swot-analysis-logic tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-strategy-swot-analysis-logic"
+    },
+    {
+        "Id":  "pro-writing-copywriting-sales-logic",
+        "Name":  "pro-writing-copywriting-sales-logic",
+        "Description":  "Specialized Professional/Media skill for pro-writing-copywriting-sales-logic tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-writing-copywriting-sales-logic"
+    },
+    {
+        "Id":  "pro-writing-creative-character-design",
+        "Name":  "pro-writing-creative-character-design",
+        "Description":  "Specialized Professional/Media skill for pro-writing-creative-character-design tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-writing-creative-character-design"
+    },
+    {
+        "Id":  "pro-writing-grant-proposal-logic",
+        "Name":  "pro-writing-grant-proposal-logic",
+        "Description":  "Specialized Professional/Media skill for pro-writing-grant-proposal-logic tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-writing-grant-proposal-logic"
+    },
+    {
+        "Id":  "pro-writing-research-paper-latex",
+        "Name":  "pro-writing-research-paper-latex",
+        "Description":  "Specialized Professional/Media skill for pro-writing-research-paper-latex tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-writing-research-paper-latex"
+    },
+    {
+        "Id":  "pro-writing-technical-docs-rfc",
+        "Name":  "pro-writing-technical-docs-rfc",
+        "Description":  "Specialized Professional/Media skill for pro-writing-technical-docs-rfc tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\pro-writing-technical-docs-rfc"
+    },
+    {
+        "Id":  "product-manager-toolkit",
+        "Name":  "product-manager-toolkit",
+        "Description":  "Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market strategies. Use for feature prioritization, user research synthesis, requirement documentation, and product strategy development.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\product-manager-toolkit"
+    },
+    {
+        "Id":  "product-toolkit",
+        "Name":  "Product Toolkit",
+        "Description":  "RICE prioritization and product discovery frameworks",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\product-toolkit"
+    },
+    {
+        "Id":  "project-scaffolding",
+        "Name":  "project-scaffolding",
+        "Description":  "IDE-grade project scaffolding for 70+ project types (React, Next.js, FastAPI, etc). Triggers on \"Create a new project\" requests.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\project-scaffolding"
+    },
+    {
+        "Id":  "prompt-engineering",
+        "Name":  "prompt-engineering",
+        "Description":  "Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\prompt-engineering"
+    },
+    {
+        "Id":  "prompt-library",
+        "Name":  "prompt-library",
+        "Description":  "\"Curated collection of high-quality prompts for various use cases. Includes role-based prompts, task-specific templates, and prompt refinement techniques. Use when user needs prompt templates, role-play prompts, or ready-to-use prompt examples for coding, writing, analysis, or creative tasks.\"",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\prompt-library"
+    },
+    {
+        "Id":  "psychometric-test-integration",
+        "Name":  "psychometric-test-integration",
+        "Description":  "Integrate with psychometric assessment providers.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\psychometric-test-integration"
+    },
+    {
+        "Id":  "python-development",
+        "Name":  "python-development",
+        "Description":  "Modern Python development with Python 3.12+, Django, FastAPI, async patterns, and production best practices. Use for Python projects, APIs, data processing, or automation scripts.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\python-development"
+    },
+    {
+        "Id":  "qa-regression",
+        "Name":  "qa-regression",
+        "Description":  "Automate QA regression testing with reusable test skills. Create login flows, dashboard checks, user creation, and other common test scenarios that run consistently.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\qa-regression"
+    },
+    {
+        "Id":  "raffle-winner-picker",
+        "Name":  "raffle-winner-picker",
+        "Description":  "Picks random winners from lists, spreadsheets, or Google Sheets for giveaways, raffles, and contests. Ensures fair, unbiased selection with transparency.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\raffle-winner-picker"
+    },
+    {
+        "Id":  "react-best-practices",
+        "Name":  "react-best-practices",
+        "Description":  "React development guidelines with hooks, component patterns, state management, and performance optimization.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\react-best-practices"
+    },
+    {
+        "Id":  "react-ui-patterns",
+        "Name":  "react-ui-patterns",
+        "Description":  "Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\react-ui-patterns"
+    },
+    {
+        "Id":  "receiving-code-review",
+        "Name":  "receiving-code-review",
+        "Description":  "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\receiving-code-review"
+    },
+    {
+        "Id":  "red-team-tools",
+        "Name":  "Red Team Tools and Methodology",
+        "Description":  "This skill should be used when the user asks to \"follow red team methodology\", \"perform bug bounty hunting\", \"automate reconnaissance\", \"hunt for XSS vulnerabilities\", \"enumerate subdomains\", or needs security researcher techniques and tool configurations from top bug bounty hunters.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\red-team-tools"
+    },
+    {
+        "Id":  "refactoring",
+        "Name":  "Refactoring",
+        "Description":  "Code refactoring patterns and safe transformation techniques",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\refactoring"
+    },
+    {
+        "Id":  "reference-check-workflow",
+        "Name":  "reference-check-workflow",
+        "Description":  "Structured reference check process with templates and scoring.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\reference-check-workflow"
+    },
+    {
+        "Id":  "requesting-code-review",
+        "Name":  "requesting-code-review",
+        "Description":  "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\requesting-code-review"
+    },
+    {
+        "Id":  "resume-job-matcher-script",
+        "Name":  "resume-job-matcher-script",
+        "Description":  "Simple resume-job matching script.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\resume-job-matcher-script"
+    },
+    {
+        "Id":  "resume-job-recommender",
+        "Name":  "resume-job-recommender",
+        "Description":  "Resume-based job recommendation system.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\resume-job-recommender"
+    },
+    {
+        "Id":  "resume-matcher",
+        "Name":  "resume-matcher",
+        "Description":  "Open-source resume matching with keyword extraction and semantic similarity.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\resume-matcher"
+    },
+    {
+        "Id":  "resume-matcher-baseline",
+        "Name":  "resume-matcher-baseline",
+        "Description":  "Baseline resume matching implementation.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\resume-matcher-baseline"
+    },
+    {
+        "Id":  "resume-matcher-oss",
+        "Name":  "resume-matcher-oss",
+        "Description":  "Wrapper for srbhr/Resume-Matcher OSS project. Keyword and semantic matching with ATS simulation.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\resume-matcher-oss"
+    },
+    {
+        "Id":  "resume-parser-docx",
+        "Name":  "resume-parser-docx",
+        "Description":  "Parse DOCX resumes into structured data. See docx-official for underlying implementation.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\resume-parser-docx"
+    },
+    {
+        "Id":  "resume-parser-pdf",
+        "Name":  "resume-parser-pdf",
+        "Description":  "Parse PDF resumes to extract structured data (name, email, phone, skills, education, experience). Python-based.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\resume-parser-pdf"
+    },
+    {
+        "Id":  "resume-semantic-search",
+        "Name":  "resume-semantic-search",
+        "Description":  "Semantic search for resumes using sentence embeddings.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\resume-semantic-search"
+    },
+    {
+        "Id":  "sbert-crossencoder-rerank",
+        "Name":  "sbert-crossencoder-rerank",
+        "Description":  "Rerank search results using cross-encoder models for improved precision.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\sbert-crossencoder-rerank"
+    },
+    {
+        "Id":  "scanning-tools",
+        "Name":  "Security Scanning Tools",
+        "Description":  "This skill should be used when the user asks to \"perform vulnerability scanning\", \"scan networks for open ports\", \"assess web application security\", \"scan wireless networks\", \"detect malware\", \"check cloud security\", or \"evaluate system compliance\". It provides comprehensive guidance on security scanning tools and methodologies.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\scanning-tools"
+    },
+    {
+        "Id":  "search-academic-papers-logic",
+        "Name":  "search-academic-papers-logic",
+        "Description":  "Specialized OSINT and Search skill for search-academic-papers-logic tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-academic-papers-logic"
+    },
+    {
+        "Id":  "search-company-registry-global",
+        "Name":  "search-company-registry-global",
+        "Description":  "Specialized OSINT and Search skill for search-company-registry-global tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-company-registry-global"
+    },
+    {
+        "Id":  "search-cryptocurrency-transaction-trace",
+        "Name":  "search-cryptocurrency-transaction-trace",
+        "Description":  "Specialized OSINT and Search skill for search-cryptocurrency-transaction-trace tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-cryptocurrency-transaction-trace"
+    },
+    {
+        "Id":  "search-darknet-monitoring-strategy",
+        "Name":  "search-darknet-monitoring-strategy",
+        "Description":  "Specialized OSINT and Search skill for search-darknet-monitoring-strategy tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-darknet-monitoring-strategy"
+    },
+    {
+        "Id":  "search-deep-web-osint",
+        "Name":  "search-deep-web-osint",
+        "Description":  "Specialized OSINT and Search skill for search-deep-web-osint tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-deep-web-osint"
+    },
+    {
+        "Id":  "search-e-commerce-price-war-audit",
+        "Name":  "search-e-commerce-price-war-audit",
+        "Description":  "Specialized OSINT and Search skill for search-e-commerce-price-war-audit tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-e-commerce-price-war-audit"
+    },
+    {
+        "Id":  "search-expert-network-identification",
+        "Name":  "search-expert-network-identification",
+        "Description":  "Specialized OSINT and Search skill for search-expert-network-identification tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-expert-network-identification"
+    },
+    {
+        "Id":  "search-financial-market-intelligence",
+        "Name":  "search-financial-market-intelligence",
+        "Description":  "Specialized OSINT and Search skill for search-financial-market-intelligence tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-financial-market-intelligence"
+    },
+    {
+        "Id":  "search-flight-marine-traffic-osint",
+        "Name":  "search-flight-marine-traffic-osint",
+        "Description":  "Specialized OSINT and Search skill for search-flight-marine-traffic-osint tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-flight-marine-traffic-osint"
+    },
+    {
+        "Id":  "search-geospatial-satellite-recon",
+        "Name":  "search-geospatial-satellite-recon",
+        "Description":  "Specialized OSINT and Search skill for search-geospatial-satellite-recon tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-geospatial-satellite-recon"
+    },
+    {
+        "Id":  "search-government-tender-tracking",
+        "Name":  "search-government-tender-tracking",
+        "Description":  "Specialized OSINT and Search skill for search-government-tender-tracking tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-government-tender-tracking"
+    },
+    {
+        "Id":  "search-leak-database-query",
+        "Name":  "search-leak-database-query",
+        "Description":  "Specialized OSINT and Search skill for search-leak-database-query tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-leak-database-query"
+    },
+    {
+        "Id":  "search-legal-precedent-research",
+        "Name":  "search-legal-precedent-research",
+        "Description":  "Specialized OSINT and Search skill for search-legal-precedent-research tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-legal-precedent-research"
+    },
+    {
+        "Id":  "search-lobbying-influence-mapping",
+        "Name":  "search-lobbying-influence-mapping",
+        "Description":  "Specialized OSINT and Search skill for search-lobbying-influence-mapping tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-lobbying-influence-mapping"
+    },
+    {
+        "Id":  "search-news-bias-cross-check",
+        "Name":  "search-news-bias-cross-check",
+        "Description":  "Specialized OSINT and Search skill for search-news-bias-cross-check tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-news-bias-cross-check"
+    },
+    {
+        "Id":  "search-osint-automation-framework",
+        "Name":  "search-osint-automation-framework",
+        "Description":  "Specialized OSINT and Search skill for search-osint-automation-framework tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-osint-automation-framework"
+    },
+    {
+        "Id":  "search-patent-landscape-analysis",
+        "Name":  "search-patent-landscape-analysis",
+        "Description":  "Specialized OSINT and Search skill for search-patent-landscape-analysis tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-patent-landscape-analysis"
+    },
+    {
+        "Id":  "search-political-ad-transparency",
+        "Name":  "search-political-ad-transparency",
+        "Description":  "Specialized OSINT and Search skill for search-political-ad-transparency tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-political-ad-transparency"
+    },
+    {
+        "Id":  "search-real-estate-property-audit",
+        "Name":  "search-real-estate-property-audit",
+        "Description":  "Specialized OSINT and Search skill for search-real-estate-property-audit tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-real-estate-property-audit"
+    },
+    {
+        "Id":  "search-scientific-dataset-discovery",
+        "Name":  "search-scientific-dataset-discovery",
+        "Description":  "Specialized OSINT and Search skill for search-scientific-dataset-discovery tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-scientific-dataset-discovery"
+    },
+    {
+        "Id":  "search-shodan-iot-mapping",
+        "Name":  "search-shodan-iot-mapping",
+        "Description":  "Specialized OSINT and Search skill for search-shodan-iot-mapping tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-shodan-iot-mapping"
+    },
+    {
+        "Id":  "search-social-trend-forecasting",
+        "Name":  "search-social-trend-forecasting",
+        "Description":  "Specialized OSINT and Search skill for search-social-trend-forecasting tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-social-trend-forecasting"
+    },
+    {
+        "Id":  "search-wayback-historical-analysis",
+        "Name":  "search-wayback-historical-analysis",
+        "Description":  "Specialized OSINT and Search skill for search-wayback-historical-analysis tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-wayback-historical-analysis"
+    },
+    {
+        "Id":  "search-weather-climate-data-retrieval",
+        "Name":  "search-weather-climate-data-retrieval",
+        "Description":  "Specialized OSINT and Search skill for search-weather-climate-data-retrieval tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-weather-climate-data-retrieval"
+    },
+    {
+        "Id":  "search-whois-reverse-lookup",
+        "Name":  "search-whois-reverse-lookup",
+        "Description":  "Specialized OSINT and Search skill for search-whois-reverse-lookup tasks.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\search-whois-reverse-lookup"
+    },
+    {
+        "Id":  "senior-architect",
+        "Name":  "senior-architect",
+        "Description":  "Comprehensive software architecture skill for designing scalable, maintainable systems using ReactJS, NextJS, NodeJS, Express, React Native, Swift, Kotlin, Flutter, Postgres, GraphQL, Go, Python. Includes architecture diagram generation, system design patterns, tech stack decision frameworks, and dependency analysis. Use when designing system architecture, making technical decisions, creating architecture diagrams, evaluating trade-offs, or defining integration patterns.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\senior-architect"
+    },
+    {
+        "Id":  "senior-fullstack",
+        "Name":  "senior-fullstack",
+        "Description":  "Comprehensive fullstack development skill for building complete web applications with React, Next.js, Node.js, GraphQL, and PostgreSQL. Includes project scaffolding, code quality analysis, architecture patterns, and complete tech stack guidance. Use when building new projects, analyzing code quality, implementing design patterns, or setting up development workflows.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\senior-fullstack"
+    },
+    {
+        "Id":  "sentence-transformers-search",
+        "Name":  "sentence-transformers-search",
+        "Description":  "Sentence-BERT for semantic search and similarity.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\sentence-transformers-search"
+    },
+    {
+        "Id":  "shodan-reconnaissance",
+        "Name":  "Shodan Reconnaissance and Pentesting",
+        "Description":  "This skill should be used when the user asks to \"search for exposed devices on the internet,\" \"perform Shodan reconnaissance,\" \"find vulnerable services using Shodan,\" \"scan IP ranges with Shodan,\" or \"discover IoT devices and open ports.\" It provides comprehensive guidance for using Shodan\u0027s search engine, CLI, and API for penetration testing reconnaissance.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\shodan-reconnaissance"
+    },
+    {
+        "Id":  "shortlist-export-xlsx",
+        "Name":  "shortlist-export-xlsx",
+        "Description":  "Export shortlist data to Excel (XLSX) format. See xlsx-official for underlying implementation.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\shortlist-export-xlsx"
+    },
+    {
+        "Id":  "shortlist-report-pdf",
+        "Name":  "shortlist-report-pdf",
+        "Description":  "Generate PDF shortlist reports. See pdf-official for underlying implementation.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\shortlist-report-pdf"
+    },
+    {
+        "Id":  "skill-creator",
+        "Name":  "skill-creator",
+        "Description":  "Guide for creating effective skills. Use when users want to create a new skill (or update an existing skill) that extends Claude\u0027s capabilities with specialized knowledge, workflows, or tool integrations.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skill-creator"
+    },
+    {
+        "Id":  "skill-developer",
+        "Name":  "skill-developer",
+        "Description":  "Create and manage Claude Code skills following Anthropic best practices. Use when creating new skills, modifying skill-rules.json, understanding trigger patterns, working with hooks, debugging skill activation, or implementing progressive disclosure. Covers skill structure, YAML frontmatter, trigger types (keywords, intent patterns, file paths, content patterns), enforcement levels (block, suggest, warn), hook mechanisms (UserPromptSubmit, PreToolUse), session tracking, and the 500-line rule.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skill-developer"
+    },
+    {
+        "Id":  "skill-discovery",
+        "Name":  "Skill Discovery",
+        "Description":  "The ultimate meta-skill for finding, installing, and managing AI agent skills using Skild and community tools",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skill-discovery"
+    },
+    {
+        "Id":  "skill-evaluator",
+        "Name":  "skill-evaluator",
+        "Description":  "Industry-grade agentic QA suite for AI agent skills (v3.0). Validates structure, security (injection/exfiltration), semantic logic (LLM-as-Judge), and library-wide compatibility. Use to audit any skill for production readiness.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skill-evaluator"
+    },
+    {
+        "Id":  "skill-extraction-skillner",
+        "Name":  "skill-extraction-skillner",
+        "Description":  "SkillNER - Named Entity Recognition for skills extraction.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skill-extraction-skillner"
+    },
+    {
+        "Id":  "skill-gap-analyzer",
+        "Name":  "skill-gap-analyzer",
+        "Description":  "Identify skill gaps between candidate pools and vacancy requirements.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skill-gap-analyzer"
+    },
+    {
+        "Id":  "skill-installer",
+        "Name":  "skill-installer",
+        "Description":  "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skill-installer"
+    },
+    {
+        "Id":  "skill-share",
+        "Name":  "skill-share",
+        "Description":  "A skill that creates new Claude skills and automatically shares them on Slack using Rube for seamless team collaboration and skill discovery.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skill-share"
+    },
+    {
+        "Id":  "skill-wrapper-generator",
+        "Name":  "skill-wrapper-generator",
+        "Description":  "Generates a standard wrapper structure for skills.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skill-wrapper-generator"
+    },
+    {
+        "Id":  "skills-assessment-tool",
+        "Name":  "skills-assessment-tool",
+        "Description":  "Create and evaluate technical skills assessments.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skills-assessment-tool"
+    },
+    {
+        "Id":  "skills-evidence-logger",
+        "Name":  "skills-evidence-logger",
+        "Description":  "Appends per-skill evidence blocks to the evidence log.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skills-evidence-logger"
+    },
+    {
+        "Id":  "skills-extractor-ojd-daps",
+        "Name":  "skills-extractor-ojd-daps",
+        "Description":  "Skills extraction from job descriptions (Nesta OJD-DAPS).",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skills-extractor-ojd-daps"
+    },
+    {
+        "Id":  "skills-installer",
+        "Name":  "skills-installer",
+        "Description":  "Clones/downloads repos into global skills directory and wraps them.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skills-installer"
+    },
+    {
+        "Id":  "skills-inventory-auditor",
+        "Name":  "skills-inventory-auditor",
+        "Description":  "Enumerates installed skills across global/workspace and produces a normalized inventory report.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skills-inventory-auditor"
+    },
+    {
+        "Id":  "skills-proof-bundler",
+        "Name":  "skills-proof-bundler",
+        "Description":  "Collects inventory, logs, and evidence into a proof bundle.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skills-proof-bundler"
+    },
+    {
+        "Id":  "skills-taxonomy-normalizer",
+        "Name":  "skills-taxonomy-normalizer",
+        "Description":  "Normalize extracted skills to a standard taxonomy with canonical names and categories.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skills-taxonomy-normalizer"
+    },
+    {
+        "Id":  "skills-web-discovery",
+        "Name":  "skills-web-discovery",
+        "Description":  "Searches web/github for relevant skills/repos/templates given a task domain.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\skills-web-discovery"
+    },
+    {
+        "Id":  "slack-gif-creator",
+        "Name":  "slack-gif-creator",
+        "Description":  "Toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation primitives. This skill applies when users request animated GIFs or emoji animations for Slack from descriptions like \"make me a GIF for Slack of X doing Y\".",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\slack-gif-creator"
+    },
+    {
+        "Id":  "sms-outreach",
+        "Name":  "sms-outreach",
+        "Description":  "Send SMS messages to candidates via Twilio or similar providers.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\sms-outreach"
+    },
+    {
+        "Id":  "smtp-penetration-testing",
+        "Name":  "SMTP Penetration Testing",
+        "Description":  "This skill should be used when the user asks to \"perform SMTP penetration testing\", \"enumerate email users\", \"test for open mail relays\", \"grab SMTP banners\", \"brute force email credentials\", or \"assess mail server security\". It provides comprehensive techniques for testing SMTP server security.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\smtp-penetration-testing"
+    },
+    {
+        "Id":  "software-architecture",
+        "Name":  "software-architecture",
+        "Description":  "Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\software-architecture"
+    },
+    {
+        "Id":  "source-effectiveness-tracker",
+        "Name":  "source-effectiveness-tracker",
+        "Description":  "Track which sourcing channels yield the best candidates.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\source-effectiveness-tracker"
+    },
+    {
+        "Id":  "spotaxis-ats",
+        "Name":  "spotaxis-ats",
+        "Description":  "SpotAxis recruitment platform reference.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\spotaxis-ats"
+    },
+    {
+        "Id":  "sql-injection-testing",
+        "Name":  "SQL Injection Testing",
+        "Description":  "This skill should be used when the user asks to \"test for SQL injection vulnerabilities\", \"perform SQLi attacks\", \"bypass authentication using SQL injection\", \"extract database information through injection\", \"detect SQL injection flaws\", or \"exploit database query vulnerabilities\". It provides comprehensive techniques for identifying, exploiting, and understanding SQL injection attack vectors across different database systems.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\sql-injection-testing"
+    },
+    {
+        "Id":  "sqlmap-database-pentesting",
+        "Name":  "SQLMap Database Penetration Testing",
+        "Description":  "This skill should be used when the user asks to \"automate SQL injection testing,\" \"enumerate database structure,\" \"extract database credentials using sqlmap,\" \"dump tables and columns from a vulnerable database,\" or \"perform automated database penetration testing.\" It provides comprehensive guidance for using SQLMap to detect and exploit SQL injection vulnerabilities.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\sqlmap-database-pentesting"
+    },
+    {
+        "Id":  "sri-lanka-location-normalizer",
+        "Name":  "sri-lanka-location-normalizer",
+        "Description":  "Normalize Sri Lankan location names, provinces, and districts to standard forms.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\sri-lanka-location-normalizer"
+    },
+    {
+        "Id":  "sri-lanka-titles-companies-normalizer",
+        "Name":  "sri-lanka-titles-companies-normalizer",
+        "Description":  "Normalize Sri Lankan job titles and company names to standard forms.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\sri-lanka-titles-companies-normalizer"
+    },
+    {
+        "Id":  "ssh-penetration-testing",
+        "Name":  "SSH Penetration Testing",
+        "Description":  "This skill should be used when the user asks to \"pentest SSH services\", \"enumerate SSH configurations\", \"brute force SSH credentials\", \"exploit SSH vulnerabilities\", \"perform SSH tunneling\", or \"audit SSH security\". It provides comprehensive SSH penetration testing methodologies and techniques.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ssh-penetration-testing"
+    },
+    {
+        "Id":  "stackoverflow-talent-sourcer",
+        "Name":  "stackoverflow-talent-sourcer",
+        "Description":  "Source developers from Stack Overflow using StackAPI. Public profiles only.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\stackoverflow-talent-sourcer"
+    },
+    {
+        "Id":  "stellar-candidate-selector",
+        "Name":  "stellar-candidate-selector",
+        "Description":  "AI-powered candidate selection using embeddings and ranking.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\stellar-candidate-selector"
+    },
+    {
+        "Id":  "subagent-driven-development",
+        "Name":  "subagent-driven-development",
+        "Description":  "Use when executing implementation plans with independent tasks in the current session",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\subagent-driven-development"
+    },
+    {
+        "Id":  "systematic-debugging",
+        "Name":  "systematic-debugging",
+        "Description":  "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\systematic-debugging"
+    },
+    {
+        "Id":  "tailored-resume-generator",
+        "Name":  "tailored-resume-generator",
+        "Description":  "Analyzes job descriptions and generates tailored resumes that highlight relevant experience, skills, and achievements to maximize interview chances",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\tailored-resume-generator"
+    },
+    {
+        "Id":  "talent-pool-segmenter",
+        "Name":  "talent-pool-segmenter",
+        "Description":  "Segment candidate pool by skills, experience level, location, and availability.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\talent-pool-segmenter"
+    },
+    {
+        "Id":  "tdd",
+        "Name":  "TDD (Test-Driven Development)",
+        "Description":  "Red-green-refactor workflow for writing tests before implementation code",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\tdd"
+    },
+    {
+        "Id":  "template-skill",
+        "Name":  "template-skill",
+        "Description":  "Replace with description of the skill and when Claude should use it.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\template-skill"
+    },
+    {
+        "Id":  "test-driven-development",
+        "Name":  "test-driven-development",
+        "Description":  "Use when implementing any feature or bugfix, before writing implementation code",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\test-driven-development"
+    },
+    {
+        "Id":  "test-fixing",
+        "Name":  "test-fixing",
+        "Description":  "Run tests and systematically fix all failing tests using smart error grouping. Use when user asks to fix failing tests, mentions test failures, runs test suite and failures occur, or requests to make tests pass.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\test-fixing"
+    },
+    {
+        "Id":  "testing-patterns",
+        "Name":  "testing-patterns",
+        "Description":  "Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\testing-patterns"
+    },
+    {
+        "Id":  "theme-factory",
+        "Name":  "theme-factory",
+        "Description":  "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\theme-factory"
+    },
+    {
+        "Id":  "top-web-vulnerabilities",
+        "Name":  "Top 100 Web Vulnerabilities Reference",
+        "Description":  "This skill should be used when the user asks to \"identify web application vulnerabilities\", \"explain common security flaws\", \"understand vulnerability categories\", \"learn about injection attacks\", \"review access control weaknesses\", \"analyze API security issues\", \"assess security misconfigurations\", \"understand client-side vulnerabilities\", \"examine mobile and IoT security flaws\", or \"reference the OWASP-aligned vulnerability taxonomy\". Use this skill to provide comprehensive vulnerability definitions, root causes, impacts, and mitigation strategies across all major web security categories.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\top-web-vulnerabilities"
+    },
+    {
+        "Id":  "topjobs-vacancy-parser",
+        "Name":  "topjobs-vacancy-parser",
+        "Description":  "Parse TopJobs.lk public vacancy listings into structured vacancy format.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\topjobs-vacancy-parser"
+    },
+    {
+        "Id":  "typescript-mastery",
+        "Name":  "TypeScript Mastery",
+        "Description":  "TypeScript best practices and advanced patterns",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\typescript-mastery"
+    },
+    {
+        "Id":  "uapply-recommender",
+        "Name":  "uapply-recommender",
+        "Description":  "uApply job recommendation system using ML.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\uapply-recommender"
+    },
+    {
+        "Id":  "ui-ux-design",
+        "Name":  "UI/UX Design",
+        "Description":  "Advanced design intelligence and 50+ styling patterns",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ui-ux-design"
+    },
+    {
+        "Id":  "ui-ux-pro-max",
+        "Name":  "ui-ux-pro-max",
+        "Description":  "\"UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.\"",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\ui-ux-pro-max"
+    },
+    {
+        "Id":  "upgrading-expo",
+        "Name":  "upgrading-expo",
+        "Description":  "Guidelines for upgrading Expo SDK versions and fixing dependency issues.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\upgrading-expo"
+    },
+    {
+        "Id":  "using-firebase",
+        "Name":  "using-firebase",
+        "Description":  "Comprehensive Firebase development guidance for GCP-hosted applications. Covers Firestore database operations (CRUD, queries, transactions, data modeling), Cloud Functions (1st and 2nd generation, TypeScript and Python, all trigger types), Firebase CLI operations, emulator setup and data persistence, security rules (Firestore and Storage), authentication integration, hosting configuration, and GCP service integration. Use when working with Firebase projects, deploying Cloud Functions, querying Firestore, setting up triggers (Firestore, Auth, Storage, HTTP, Callable, Scheduled, Pub/Sub), managing security rules, configuring hosting rewrites/headers, managing secrets, or integrating with GCP services like BigQuery and Cloud Tasks. Triggers include firebase, firestore, cloud functions, firebase functions, firebase hosting, firebase auth, firebase storage, firebase emulator, firebase deploy, firebase init, firebase rules, callable function, scheduled function, onDocumentCreated, onRequest, onCall, onSchedule.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\using-firebase"
+    },
+    {
+        "Id":  "using-git-worktrees",
+        "Name":  "using-git-worktrees",
+        "Description":  "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\using-git-worktrees"
+    },
+    {
+        "Id":  "using-superpowers",
+        "Name":  "using-superpowers",
+        "Description":  "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\using-superpowers"
+    },
+    {
+        "Id":  "vacancy-to-search-query-builder",
+        "Name":  "vacancy-to-search-query-builder",
+        "Description":  "Convert vacancy requirements to candidate search queries (Firestore, Algolia, Typesense).",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\vacancy-to-search-query-builder"
+    },
+    {
+        "Id":  "vector-index-faiss-local",
+        "Name":  "vector-index-faiss-local",
+        "Description":  "Facebook AI Similarity Search (FAISS) for efficient vector indexing.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\vector-index-faiss-local"
+    },
+    {
+        "Id":  "vercel-deploy",
+        "Name":  "vercel-deploy",
+        "Description":  "Deploy applications to Vercel with edge functions, serverless, and ISR.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\vercel-deploy"
+    },
+    {
+        "Id":  "verification-before-completion",
+        "Name":  "verification-before-completion",
+        "Description":  "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\verification-before-completion"
+    },
+    {
+        "Id":  "video-downloader",
+        "Name":  "video-downloader",
+        "Description":  "Downloads videos from YouTube and other platforms for offline viewing, editing, or archival. Handles various formats and quality options.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\video-downloader"
+    },
+    {
+        "Id":  "video-interview-coordinator",
+        "Name":  "video-interview-coordinator",
+        "Description":  "Coordinate video interviews with Zoom, Google Meet, or Teams.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\video-interview-coordinator"
+    },
+    {
+        "Id":  "web-artifacts-builder",
+        "Name":  "web-artifacts-builder",
+        "Description":  "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\web-artifacts-builder"
+    },
+    {
+        "Id":  "web-design-guidelines",
+        "Name":  "web-design-guidelines",
+        "Description":  "Modern web design principles for responsive layouts, accessibility, and visual hierarchy.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\web-design-guidelines"
+    },
+    {
+        "Id":  "web-search-google-cse",
+        "Name":  "web-search-google-cse",
+        "Description":  "Wrapper for Google Custom Search JSON API (Programmable Search Engine).",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\web-search-google-cse"
+    },
+    {
+        "Id":  "web-search-google-cse-siterestrict",
+        "Name":  "web-search-google-cse-siterestrict",
+        "Description":  "Google CSE with site restriction for targeted searches (e.g., only LinkedIn, GitHub).",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\web-search-google-cse-siterestrict"
+    },
+    {
+        "Id":  "webapp-e2e-testing-playwright",
+        "Name":  "webapp-e2e-testing-playwright",
+        "Description":  "End-to-end browser testing with Playwright. Provides test generation, debugging, and advanced patterns.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\webapp-e2e-testing-playwright"
+    },
+    {
+        "Id":  "webapp-testing",
+        "Name":  "webapp-testing",
+        "Description":  "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\webapp-testing"
+    },
+    {
+        "Id":  "whatsapp-business-integration",
+        "Name":  "whatsapp-business-integration",
+        "Description":  "WhatsApp Business API integration for candidate messaging.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\whatsapp-business-integration"
+    },
+    {
+        "Id":  "windows-privilege-escalation",
+        "Name":  "Windows Privilege Escalation",
+        "Description":  "This skill should be used when the user asks to \"escalate privileges on Windows,\" \"find Windows privesc vectors,\" \"enumerate Windows for privilege escalation,\" \"exploit Windows misconfigurations,\" or \"perform post-exploitation privilege escalation.\" It provides comprehensive guidance for discovering and exploiting privilege escalation vulnerabilities in Windows environments.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\windows-privilege-escalation"
+    },
+    {
+        "Id":  "wireshark-analysis",
+        "Name":  "Wireshark Network Traffic Analysis",
+        "Description":  "This skill should be used when the user asks to \"analyze network traffic with Wireshark\", \"capture packets for troubleshooting\", \"filter PCAP files\", \"follow TCP/UDP streams\", \"detect network anomalies\", \"investigate suspicious traffic\", or \"perform protocol analysis\". It provides comprehensive techniques for network packet capture, filtering, and analysis using Wireshark.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\wireshark-analysis"
+    },
+    {
+        "Id":  "wordpress-penetration-testing",
+        "Name":  "WordPress Penetration Testing",
+        "Description":  "This skill should be used when the user asks to \"pentest WordPress sites\", \"scan WordPress for vulnerabilities\", \"enumerate WordPress users, themes, or plugins\", \"exploit WordPress vulnerabilities\", or \"use WPScan\". It provides comprehensive WordPress security assessment methodologies.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\wordpress-penetration-testing"
+    },
+    {
+        "Id":  "workflow-automation",
+        "Name":  "workflow-automation",
+        "Description":  "\"Design and implement automated workflows combining visual logic with custom code. Create multi-step automations, integrate APIs, and build AI-native pipelines. Use when designing automation flows, integrating APIs, building event-driven systems, or creating LangChain-style AI workflows.\"",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\workflow-automation"
+    },
+    {
+        "Id":  "writing-plans",
+        "Name":  "writing-plans",
+        "Description":  "Use when you have a spec or requirements for a multi-step task, before touching code",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\writing-plans"
+    },
+    {
+        "Id":  "writing-skills",
+        "Name":  "writing-skills",
+        "Description":  "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\writing-skills"
+    },
+    {
+        "Id":  "xlsx-official",
+        "Name":  "xlsx",
+        "Description":  "\"Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas\"",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\xlsx-official"
+    },
+    {
+        "Id":  "xss-html-injection",
+        "Name":  "Cross-Site Scripting and HTML Injection Testing",
+        "Description":  "This skill should be used when the user asks to \"test for XSS vulnerabilities\", \"perform cross-site scripting attacks\", \"identify HTML injection flaws\", \"exploit client-side injection vulnerabilities\", \"steal cookies via XSS\", or \"bypass content security policies\". It provides comprehensive techniques for detecting, exploiting, and understanding XSS and HTML injection attack vectors in web applications.",
+        "Path":  "C:\\Users\\Nilhan Work\\.gemini\\antigravity\\skills\\xss-html-injection"
+    }
+]
