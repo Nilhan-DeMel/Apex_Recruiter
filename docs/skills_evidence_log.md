@@ -1,35 +1,15 @@
-# Skills Evidence Log (Live Build Sync)
+# Skills Evidence Log (Live Auth Fix & Deploy)
 
-## SKILL: Git Hygiene & Safety
+## SKILL: MS Edge Browser Control
 
-- **ID**: `git-hygiene-basic`
-- **Invocation**: Manual execution of `git status`, `git log`, and branching strategy.
-- **Evidence**: See `docs/proof_bundle/deploy_sync/logs/git_baseline.txt`.
+- **ID**: `ms-edge-browser-control`
+- **Invocation**: Used `Edge-DevTools-Control.ps1` to launch Edge and capture live screenshots.
+- **Evidence**: `docs/proof_bundle/live_sync/screenshots/01_live_auth_error.png`
 
-## SKILL: Forensic Evidence Collection
+## SKILL: Firebase Operational Chores
 
-- **ID**: `forensic-proof`
-- **Invocation**: Creation of `docs/proof_bundle/deploy_sync/` and strict evidence gathering.
-- **Evidence**: Directory structure created.
-
-## SKILL: Automated Visual Forensics
-
-- **ID**: `playwright-visual-repro`
-- **Invocation**: Ran `e2e/reproduce-mismatch.spec.ts` to capture Local vs Live state.
-- **Evidence**: `docs/proof_bundle/deploy_sync/screenshots/` populated.
-
-## SKILL: Firebase Target Diagnosis
-
-- **ID**: `firebase-target-verification`
-- **Invocation**: Inspected `.firebaserc` and `firebase projects:list`.
-- **Evidence**: Confirmed `apex-recruiter-p1` alignment.
-
-- **Evidence**: Confirmed `apex-recruiter-p1` alignment.
-
-## SKILL: Production Build & Deploy
-
-- **ID**: `firebase-deploy`
-- **Invocation**: Ran `npm run build` and `firebase deploy --only hosting`.
-- **Evidence**: Build logs in `docs/proof_bundle/deploy_sync/logs/build.txt` (to be created) and deploy output.
+- **ID**: `firebase-ops`
+- **Invocation**: Firebase project/target verification and deployment.
+- **Evidence**: `docs/proof_bundle/live_sync/logs/` logs.
 
 *Log updated dynamically.*

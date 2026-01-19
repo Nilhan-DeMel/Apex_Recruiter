@@ -24,6 +24,10 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta name="theme-color" content="#7c3aed" />
+        {/* BUILD_STAMP:{process.env.NEXT_PUBLIC_GIT_SHA || 'dev'} PROJECT:{process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || 'unknown'} */}
+        <script dangerouslySetInnerHTML={{
+          __html: `<!-- BUILD_STAMP:${process.env.NEXT_PUBLIC_GIT_SHA || 'dev'} PROJECT:${process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || 'unknown'} -->`
+        }} />
       </head>
       <body className="min-h-screen antialiased">
         <AuthProvider>

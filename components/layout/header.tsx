@@ -211,9 +211,12 @@ export function Header({
                             </DropdownMenuItem>
                         )}
                         <DropdownMenuSeparator />
-                        <DropdownMenuItem disabled className="text-[10px] opacity-50 flex flex-col items-start gap-0.5 px-2 py-1.5 font-mono">
-                            <span>Build: {process.env.NEXT_PUBLIC_GIT_SHA?.substring(0, 7) || "dev"}</span>
-                            <span>{new Date(process.env.NEXT_PUBLIC_BUILD_TIME || Date.now()).toLocaleString()}</span>
+                        <DropdownMenuItem disabled className="text-[10px] opacity-70 flex flex-col items-start gap-0.5 px-3 py-2 font-mono bg-muted/30">
+                            <span className="font-bold text-primary">Build Info</span>
+                            <span className="truncate w-full line-clamp-1">SHA: {process.env.NEXT_PUBLIC_GIT_SHA?.substring(0, 7) || "dev"}</span>
+                            <span>Project: {process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || "unknown"}</span>
+                            <span className="truncate w-full line-clamp-1">Host: {typeof window !== 'undefined' ? window.location.host : 'server'}</span>
+                            <span>{process.env.NEXT_PUBLIC_BUILD_TIME ? new Date(process.env.NEXT_PUBLIC_BUILD_TIME).toLocaleString() : "Dev Mode"}</span>
                         </DropdownMenuItem>
                         <DropdownMenuSeparator />
                         <DropdownMenuItem onClick={resetAll} className="text-destructive">
