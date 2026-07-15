@@ -28,15 +28,15 @@ export function ConsentBanner({ onAccept }: ConsentBannerProps) {
                         <ul className="space-y-2 text-sm text-muted-foreground">
                             <li className="flex items-start gap-2">
                                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-                                <span>Your OpenAI API key is stored only in browser memory and never saved to our servers.</span>
+                                <span>Your OpenAI API key is held in this tab&apos;s session storage and sent directly to OpenAI.</span>
                             </li>
                             <li className="flex items-start gap-2">
                                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-                                <span>Uploaded files and chat transcripts are stored temporarily for your session.</span>
+                                <span>Current files, notes, and chat state remain local to this browser session.</span>
                             </li>
                             <li className="flex items-start gap-2">
                                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-                                <span>Data is processed in compliance with PDPA Sri Lanka requirements.</span>
+                                <span>This prototype is not certified for personal candidate data or formal privacy compliance.</span>
                             </li>
                             <li className="flex items-start gap-2">
                                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />

@@ -1,81 +1,37 @@
-# Phase 1 Status
+# Implementation status
 
-Last Updated: 2026-01-17T23:03:00+05:30
+Last verified: 2026-07-15
 
-## Progress
+## Implemented
 
-| Step | Status | Notes |
-|------|--------|-------|
-| 1. Skill discovery | ✅ Complete | See skills-inventory.md |
-| 2. Documentation | ✅ Complete | phase1-plan, security, research |
-| 3. Next.js scaffold | ✅ Complete | Next.js 16.1.3 + Tailwind 4 |
-| 4. Firebase init | ✅ Complete | firebase.json + rules |
-| 5. Auth (anonymous) | ✅ Complete | Sessions via sessionStorage |
-| 6. Upload pipeline | ✅ Complete | Drag-drop, file list |
-| 7. Chat API | ✅ Complete | Edge streaming route |
-| 8. Conversation engine | ✅ Complete | System prompt with clarification flow |
-| 9. Persona generator | ✅ Complete | Schema, cards, versioning |
-| 10. Exporters | ✅ Complete | PDF, DOCX, JSON |
-| 11. QA + accessibility | ✅ Complete | Build passes, a11y fixes |
-| 12. Deploy + proof | 🔄 Ready | Dev server verified |
+- Responsive Next.js chat/context workspace
+- User-supplied OpenAI key held in tab-scoped `sessionStorage`
+- Direct streaming chat-completions client with incremental UI updates
+- Recruitment-specific conversation prompt and quick actions
+- Client-side TXT extraction, file inventory, links, notes, and combined context
+- Typed vacancy, message, persona, version, and approval state
+- Persona review and browser-side PDF/JSON/document export surfaces
+- Consent and key-management UI
+- Firebase Hosting, Firestore rules, Storage rules, and indexes as deployment groundwork
+
+## Partial or scaffolded
+
+- Non-TXT files reach the upload/review state, but server-side PDF, DOCX, and image extraction is not connected.
+- The AI can return persona descriptions in chat, while conversion into the typed persona viewer is not yet wired.
+- The export UI exists; the document export is a compatibility prototype rather than native DOCX generation.
+- Firebase persistence rules are present, but the current application state remains browser-local.
+
+## Not claimed
+
+- No deployed Cloud Function or App Router API route exists in the current tree.
+- No applicant-tracking database, candidate records, or automated outreach is implemented.
+- No formal PDPA certification or production security review has been completed.
 
 ## Verification
 
-- **Build**: `npm run build` - ✅ Exits 0
-- **Dev Server**: `npm run dev` - ✅ <http://localhost:3000>
-- **Page Title**: "Apex Recruiter | Vacancy Intelligence Chat" - ✅ Confirmed
-
-## Files Created
-
-```
-Apex_Recruiter/
-├── app/
-│   ├── api/chat/route.ts          # Streaming chat API
-│   ├── globals.css                 # Premium styling
-│   ├── layout.tsx                  # Root layout with metadata
-│   └── page.tsx                    # Main page component
-├── components/
-│   ├── chat/
-│   │   ├── chat-panel.tsx          # Main chat panel
-│   │   ├── chat-message.tsx        # Message component
-│   │   ├── chat-composer.tsx       # Input composer
-│   │   ├── quick-chips.tsx         # Quick prompts
-│   │   └── empty-state.tsx         # Getting started
-│   ├── context/
-│   │   ├── context-panel.tsx       # Right sidebar
-│   │   ├── file-uploader.tsx       # File upload
-│   │   ├── link-manager.tsx        # URL management
-│   │   ├── note-editor.tsx         # Notes
-│   │   ├── extracted-text-viewer.tsx # Text viewer
-│   │   └── persona-viewer.tsx      # Persona cards
-│   ├── dialogs/
-│   │   └── api-key-dialog.tsx      # API key input
-│   ├── layout/
-│   │   ├── header.tsx              # App header
-│   │   └── consent-banner.tsx      # PDPA consent
-│   └── ui/                         # shadcn components
-├── lib/
-│   ├── api/chat.ts                 # Chat API client
-│   ├── export.ts                   # Export utilities
-│   ├── store/vacancy-store.ts      # Zustand state
-│   └── utils.ts                    # Utilities
-├── docs/
-│   ├── phase1-plan.md              # Implementation plan
-│   ├── phase1-rubric.md            # Self-verification
-│   ├── research.md                 # UI/UX research
-│   ├── runbook.md                  # How to run
-│   ├── security.md                 # Security docs
-│   ├── skills-inventory.md         # Skills used
-│   ├── status.md                   # This file
-│   └── screens/                    # Screenshots (pending)
-├── firebase.json                   # Firebase config
-├── firestore.rules                 # Firestore security
-├── firestore.indexes.json          # Indexes
-└── storage.rules                   # Storage security
+```bash
+npm run lint
+npm run build
 ```
 
-## Next Steps
-
-1. Deploy to Firebase Hosting (`firebase deploy`)
-2. Run Lighthouse audit
-3. Add screenshots to /docs/screens/
+The 2026-07-15 employer-release baseline completed ESLint without blocking errors and built all current routes successfully with Next.js 16.1.6 and React 19.2.4.

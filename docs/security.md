@@ -1,135 +1,33 @@
-# Security Documentation
+# Security boundary
 
-## OpenAI API Key Handling
+This document describes the code that exists in the repository today. Older architecture plans may discuss a future server-side provider proxy and Firebase persistence; those are not current runtime guarantees.
 
-### Threat Model
+## OpenAI key handling
 
-| Threat | Mitigation |
-|--------|------------|
-| Key stored in DB | Key never written to Firestore |
-| Key in browser storage | sessionStorage only, cleared on tab close |
-| Key in transit | HTTPS only, TLS 1.3 |
-| Key in logs | Never logged on server |
-| Key exposure via XSS | CSP headers, input sanitization |
+The user enters a key at runtime. The application:
 
-### Implementation
+- stores it in tab-scoped `sessionStorage`;
+- sends it directly to the OpenAI HTTPS endpoint from the browser;
+- does not commit it, write it to Firebase, or intentionally log it;
+- removes it through the clear-key control and attempts removal on page unload.
 
-```typescript
-// Client-side: Store in sessionStorage
-const storeApiKey = (key: string) => {
-  sessionStorage.setItem('openai_key', key);
-};
+This is acceptable for a local prototype, but it is not the preferred production design. Browser code executes in an untrusted environment and any cross-site scripting flaw could access session storage. A production deployment should use a server-side provider proxy, scoped authentication, rate limits, audit logs that exclude content and keys, and a server-held secret.
 
-// Client-side: Get key
-const getApiKey = () => sessionStorage.getItem('openai_key');
+## Vacancy data
 
-// Client-side: Clear key
-const clearApiKey = () => {
-  sessionStorage.removeItem('openai_key');
-};
+Current chat, link, note, file, extracted-text, and persona state is held in browser memory. TXT files are read locally. Other file types are represented in the UI but are not uploaded to a backend by the current code.
 
-// Auto-clear on page unload (belt + suspenders)
-window.addEventListener('beforeunload', clearApiKey);
-```
+Users should avoid real candidate personal data in this prototype. Formal retention, deletion, consent, and data-subject processes require product and legal review before production use.
 
-### Server-side (Cloud Function)
+## Firebase groundwork
 
-```typescript
-export const chat = onRequest({ cors: true }, async (req, res) => {
-  const apiKey = req.headers['x-openai-key'] as string;
-  
-  if (!apiKey || !apiKey.startsWith('sk-')) {
-    res.status(401).json({ error: 'Invalid API key' });
-    return;
-  }
-  
-  // Use key, never store it
-  const openai = new OpenAI({ apiKey });
-  
-  // ... process request
-  
-  // Key goes out of scope and is garbage collected
-});
-```
+The repository includes owner-scoped Firestore and Storage rules for a planned persistence layer. Because the current UI does not use that layer, the rules are architecture evidence rather than proof of a deployed control. Any deployment must test the rules against emulators and verify the selected Firebase project before use.
 
-### NEVER Do
+## Required production hardening
 
-- ❌ Store key in Firestore
-- ❌ Store key in localStorage (persists)
-- ❌ Log key on server
-- ❌ Send key in URL params
-- ❌ Store key in cookies
-
----
-
-## Firebase Security Rules
-
-### Firestore Rules
-
-```
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    // Sessions - user can only access own data
-    match /sessions/{sessionId} {
-      allow read, write: if request.auth != null 
-        && request.auth.uid == resource.data.userId;
-      allow create: if request.auth != null
-        && request.resource.data.userId == request.auth.uid;
-    }
-    
-    // Transcripts - user can only access own
-    match /transcripts/{transcriptId} {
-      allow read, write: if request.auth != null
-        && request.auth.uid == resource.data.userId;
-    }
-    
-    // Personas - user can only access own
-    match /personas/{personaId} {
-      allow read, write: if request.auth != null
-        && request.auth.uid == resource.data.userId;
-    }
-  }
-}
-```
-
-### Storage Rules
-
-```
-rules_version = '2';
-service firebase.storage {
-  match /b/{bucket}/o {
-    match /uploads/{userId}/{allPaths=**} {
-      allow read, write: if request.auth != null 
-        && request.auth.uid == userId;
-    }
-  }
-}
-```
-
----
-
-## PDPA Compliance (Phase 1 Scaffolding)
-
-### Consent Banner
-
-- Displayed on first visit
-- Explains data collection
-- Links to privacy policy
-- User must acknowledge
-
-### Data Retention
-
-| Data Type | Retention | Notes |
-|-----------|-----------|-------|
-| Session data | 30 days | Auto-purge via TTL |
-| Uploaded files | 30 days | Auto-purge via lifecycle |
-| Transcripts | User-controlled | Delete via UI |
-| Personas | User-controlled | Delete via UI |
-
-### User Rights
-
-- View all stored data
-- Export data (JSON)
-- Delete all data
-- Clear session
+1. Move model-provider calls behind a server-side route or function.
+2. Keep the provider key in the deployment secret store and rotate it on exposure.
+3. Add authenticated, tenant-scoped persistence with emulator-tested rules.
+4. Parse and sanitize uploaded documents on an isolated backend.
+5. Add rate limiting, content-size limits, audit events, and deletion workflows.
+6. Complete privacy, accessibility, dependency, and threat-model reviews.
