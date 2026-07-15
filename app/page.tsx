@@ -14,26 +14,24 @@ export default function HomePage() {
   const { apiKey, setApiKey } = useVacancyStore();
 
   useEffect(() => {
-    // Check if consent was given
-    const consentGiven = sessionStorage.getItem("consent_given");
-    if (!consentGiven) {
-      setShowConsent(true);
-    }
+    const initializationTimer = window.setTimeout(() => {
+      const consentGiven = sessionStorage.getItem("consent_given");
+      setShowConsent(!consentGiven);
 
-    // Check for API key
-    const storedKey = sessionStorage.getItem("openai_key");
-    if (storedKey) {
+      const storedKey = sessionStorage.getItem("openai_key");
       setApiKey(storedKey);
-    } else {
-      setShowApiKeyDialog(true);
-    }
+      setShowApiKeyDialog(!storedKey);
+    }, 0);
 
     // Clear key on page unload
     const handleUnload = () => {
       sessionStorage.removeItem("openai_key");
     };
     window.addEventListener("beforeunload", handleUnload);
-    return () => window.removeEventListener("beforeunload", handleUnload);
+    return () => {
+      window.clearTimeout(initializationTimer);
+      window.removeEventListener("beforeunload", handleUnload);
+    };
   }, [setApiKey]);
 
   const handleConsentAccept = () => {

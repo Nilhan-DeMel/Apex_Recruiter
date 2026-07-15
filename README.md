@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Apex Recruiter
 
-## Getting Started
+An AI-assisted vacancy-intelligence workspace for turning incomplete hiring context into structured, reviewable candidate scenarios.
 
-First, run the development server:
+Apex Recruiter is a polished Next.js prototype that combines a streaming recruitment chat with a live context workspace. Recruiters can gather vacancy notes, links, and text files; guide an AI through role calibration; compare versioned candidate-persona structures; approve individual scenarios; and export review material from one interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Engineering highlights
+
+- **Purpose-built conversation design:** the system prompt drives role summary, requirements, seniority, logistics, dealbreakers, and Sri Lankan market context rather than offering a generic chat box.
+- **Streaming client:** incremental Server-Sent Event parsing updates the active assistant message token by token.
+- **Typed vacancy state:** Zustand models messages, files, notes, extracted text, persona versions, approvals, salary hypotheses, risks, outreach angles, and Boolean searches.
+- **Context workspace:** drag-and-drop ingestion, link and note management, extracted-text inspection, and responsive tabbed views.
+- **Human approval:** persona cards distinguish safe, stretch, high-potential, budget, fast-joiner, and niche-specialist scenarios, with explicit approval state.
+- **Export surfaces:** print-ready PDF flow, machine-readable JSON, and an editable document prototype.
+- **Modern frontend:** Next.js 16, React 19, TypeScript, Tailwind CSS, Radix primitives, Motion, and responsive split-pane design.
+
+## Current architecture
+
+```text
+Recruiter input + vacancy context
+             |
+             v
+Client-side Zustand workspace
+       |                 |
+       v                 v
+Streaming OpenAI chat   Persona review/export surfaces
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The current implementation is intentionally local to the browser tab. Text files are read client-side; other file types expose the upload/review UX but still use placeholder extraction. The OpenAI request is made directly from the browser with a user-supplied session key. Firebase rules and hosting configuration are included as architecture groundwork, but the current UI does not persist vacancy sessions to Firebase.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Repository map
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Area | Responsibility |
+| --- | --- |
+| `app/page.tsx` | Session initialization and the split chat/context workspace |
+| `components/chat` | Streaming conversation, composer, messages, and guided prompts |
+| `components/context` | Files, links, notes, extracted text, and persona review |
+| `lib/store/vacancy-store.ts` | Typed vacancy, conversation, and persona state machine |
+| `lib/api/chat.ts` | OpenAI streaming transport and SSE decoding |
+| `lib/export.ts` | Browser-side persona export workflows |
+| `docs` | Plans, status, security boundary, research, and runbook |
 
-## Learn More
+## Run locally
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm ci
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The app asks for an OpenAI API key at runtime. It is placed in `sessionStorage`, sent directly to OpenAI over HTTPS, and removed by the app on page unload or through the clear-key control. Do not use a high-privilege or shared production key in a browser prototype.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Verification
 
-## Deploy on Vercel
+```bash
+npm run lint
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The employer-release baseline uses patched Next.js 16.1.6 and React 19.2.4, completes ESLint with no blocking errors, and produces a successful static production build. The remaining lint warnings identify prototype cleanup opportunities and are not presented as completed work.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Scope
+
+This repository demonstrates interaction design, typed state architecture, streaming AI integration, privacy-conscious session handling, and human-in-the-loop recruitment workflows. It is not yet a production applicant-tracking system: PDF/DOCX extraction, structured persona parsing, persistent Firebase sessions, formal privacy compliance, and provider-side key custody remain future integration work.
+
+See [`docs/status.md`](docs/status.md) for the implementation boundary and [`docs/security.md`](docs/security.md) for the current threat model.
