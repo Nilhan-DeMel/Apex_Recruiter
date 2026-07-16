@@ -1,5 +1,10 @@
 # Apex Recruiter
 
+<!-- portfolio-flagship -->
+<p align="center"><img src="docs/social-preview.png" alt="Apex Recruiter social preview" width="100%"></p>
+
+> **Portfolio review path:** Start with the capabilities and architecture below, then reproduce the documented verification commands. See [SECURITY.md](SECURITY.md), [CONTRIBUTING.md](CONTRIBUTING.md), and [RIGHTS.md](RIGHTS.md) for the project's operating and reuse boundaries.
+
 An AI-assisted vacancy-intelligence workspace for turning incomplete hiring context into structured, reviewable candidate scenarios.
 
 Apex Recruiter is a polished Next.js prototype that combines a streaming recruitment chat with a live context workspace. Recruiters can gather vacancy notes, links, and text files; guide an AI through role calibration; compare versioned candidate-persona structures; approve individual scenarios; and export review material from one interface.
